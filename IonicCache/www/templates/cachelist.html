@@ -1,0 +1,9 @@
+<ion-view view-title="Cache options">
+  <ion-content>
+    <ion-list>
+      <ion-item id={{cachelist.id}} ng-repeat="cachelist in cache.lists" href="#/cache/{{cachelist.id}}">
+        {{cachelist.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

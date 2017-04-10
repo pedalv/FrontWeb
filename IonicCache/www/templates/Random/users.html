@@ -1,0 +1,11 @@
+<ion-view view-title="Random Users">
+  <ion-content>
+    <ion-item class="user item" ng-repeat="user in users.users track by $index">
+		<article class="content user">
+            <img class="img" src="{{user.picture.thumbnail}}" alt="{{user.name.first}} {{user.name.last}}">
+            <p class="name">{{user.name.title}}. {{user.name.first}} {{user.name.last}}</p>
+            <p class="email">{{user.email}}</p>
+        </article>
+	</ion-item >		
+  </ion-content>
+</ion-view>
