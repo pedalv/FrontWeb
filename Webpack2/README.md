@@ -5,14 +5,14 @@
 - [Command Line Interface (CLI)](https://webpack.js.org/api/cli/) or [Node.js API](https://webpack.js.org/api/node/)
 - [webpack production-build](https://webpack.js.org/guides/production-build/)
 - [UglifyJS](http://lisperator.net/uglifyjs/)
-- [UglifyJS options](https://github.com/mishoo/UglifyJS2#usage]
+- [UglifyJS options](https://github.com/mishoo/UglifyJS2#usage)
 - [Webpack Development](https://webpack.js.org/guides/development/)
 - [Hot Module Replacement](https://webpack.js.org/guides/hmr-react/)
--- [Configuration](https://webpack.js.org/configuration/)
--- [devtool](https://webpack.js.org/configuration/devtool/)
--- [output](https://webpack.js.org/configuration/output/)
--- [devServer documentation.](https://webpack.js.org/configuration/dev-server/)
--- [stats](https://webpack.js.org/configuration/stats/)
+- [Configuration](https://webpack.js.org/configuration/)
+1. [devtool](https://webpack.js.org/configuration/devtool/)
+2. [output](https://webpack.js.org/configuration/output/)
+3. [devServer documentation.](https://webpack.js.org/configuration/dev-server/)
+4. [stats](https://webpack.js.org/configuration/stats/)
 - [Authoring Libraries](https://webpack.js.org/guides/author-libraries/)
 - [ECMAScript 6 — New Features: Overview & Comparison](http://es6-features.org/#Constants)
 
@@ -38,14 +38,16 @@ npm install --save lodash
     "build": "webpack"
   },
 ```
-- npm run build -- --colors
+```bash
+npm run build -- --colors
+```
 
 # Conclusion
 - [concepts](https://webpack.js.org/concepts/)
 - [configuration](https://webpack.js.org/configuration/)
--- [devtool](https://webpack.js.org/configuration/devtool/)
--- [output](https://webpack.js.org/configuration/output/)
--- [devServer documentation.](https://webpack.js.org/configuration/dev-server/)
--- [stats](https://webpack.js.org/configuration/stats/)
+1. [devtool](https://webpack.js.org/configuration/devtool/)
+2. [output](https://webpack.js.org/configuration/output/)
+3. [devServer documentation.](https://webpack.js.org/configuration/dev-server/)
+4. [stats](https://webpack.js.org/configuration/stats/)
 - [guides](https://webpack.js.org/guides/)
 - [api](https://webpack.js.org/api/)
