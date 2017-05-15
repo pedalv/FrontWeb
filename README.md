@@ -15,5 +15,5 @@ git clone https://github.com/pedalv/FrontApp.git
 - Webpack2 project is located on [https://github.com/pedalv/FrontApp/tree/master/Webpack2](https://github.com/pedalv/FrontApp/tree/master/Webpack2)
 
 # Project 3: Bluemix
-- Project for start with [Webpack](https://webpack.js.org/).
+- Project for start with [IBM Bluemix DevOps Services](https://hub.jazz.net/docs).
 - Bluemix project is located on [https://github.com/pedalv/FrontApp/tree/master/Bluemix](https://github.com/pedalv/FrontApp/tree/master/Bluemix)
