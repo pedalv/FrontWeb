@@ -49,7 +49,6 @@ C:...> ibm-6.10.3.0-node-v6.10.3-win-x64 LAX_VM "C:\Program Files\Java\jre1.8.0_
 - [Creating a Hello World Application with IBM Node.js Tools for Eclipse](https://www.ibm.com/developerworks/community/blogs/nodejstools/entry/Creating_a_Hello_World_Application_with_IBM_Node_js_Tools_for_Eclipse_Beta?lang=en)
 
 # Demo 2
-- [Introducing IBM Node.js Tools for Eclipse Beta](https://strongloop.com/strongblog/introducing-ibm-node-js-tools-for-eclipse-beta/)
 - [Create a Node.js application using IBM Eclipse Tools for Bluemix](https://www.ibm.com/blogs/bluemix/2015/02/create-node-js-application-using-ibm-eclipse-tools-bluemix-ibm-watson-service/)
 - [TravelChat](https://hub.jazz.net/project/sghung/TravelChat/overview)
 
