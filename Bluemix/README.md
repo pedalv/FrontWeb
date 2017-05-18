@@ -10,16 +10,21 @@
 
 # [Node.js & IBM Eclipse Tools](https://www.ibm.com/developerworks/community/blogs/nodejstools?lang=en)
 - [IBM Node.js Tools for Eclipse Overview](https://www.ibm.com/developerworks/community/blogs/nodejstools/entry/IBM_Node_js_Tools_for_Eclipse_Beta_Overview?lang=en)
-- [IBM Node.js Tools for Eclipse](https://marketplace.eclipse.org/content/ibm-nodejs-tools-eclipse-beta)
 - [Deploying apps with IBM Eclipse Tools for Bluemix](https://console.ng.bluemix.net/docs/manageapps/eclipsetools/eclipsetools.html#eclipsetools)
-- [IBM Eclipse Tools for Bluemix](https://marketplace.eclipse.org/content/ibm-eclipse-tools-bluemix)
 - [IBM Cloud](https://www.ibm.com/cloud-computing/?cm_mcc=IBMBLUEMIXMARKETING-_-Eclipse-_-Plugin-_-dWpage)
+- [node-inspector](https://www.npmjs.com/package/node-inspector)
 
 # Installation
 - [IBM Eclipse Tools for Bluemix - Installation](https://developer.ibm.com/wasdev/downloads/#asset/tools-IBM_Eclipse_Tools_for_Bluemix)
 - [bluemix login](https://console.ng.bluemix.net/)
 - [Eclipse Neon 2 for Java EE Developers, 4.6.2, which requires a Java 8 Execution Environment](https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/neon2)
 - [Marketplace Eclipse](http://marketplace.eclipse.org/)
+- [IBM Eclipse Tools for Bluemix](https://marketplace.eclipse.org/content/ibm-eclipse-tools-bluemix)
+- [IBM Node.js Tools for Eclipse](http://marketplace.eclipse.org/node/2722362)
+- [IBM Node.js Tools for Eclipse](https://marketplace.eclipse.org/content/ibm-nodejs-tools-eclipse-beta)
+- [IBM SDK for Node.js](https://developer.ibm.com/node/sdk/)
+- [IBM Monitoring and Diagnostic Tools - Health Center](https://marketplace.eclipse.org/content/ibm-monitoring-and-diagnostic-tools-health-centergit )
+
 
 # CLIs
 - [Cloud Foundry CLI](https://console.ng.bluemix.net/docs/cli/reference/cfcommands/index.html#cf)
@@ -28,7 +33,7 @@
 # App Management Utilities
 - [Managing Liberty and Node.js apps](https://console.ng.bluemix.net/docs/manageapps/app_mng.html#app_management)
 
-# Demo 1
+# Demo 1 - Creating a Hello World Application with IBM Node.js Tools for Eclipse
 - [Getting started with IBM Node.js Tools for Eclipse](https://www.ibm.com/developerworks/community/blogs/nodejstools/entry/Getting_Started_with_IBM_Node_js_Tools_for_Eclipse_Beta?lang=en)
 - [Node.js Foundation](https://nodejs.org/en/download/)
 - Trenger IBM id for å installere IBM Development Package for Eclipse
