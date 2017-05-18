@@ -1,6 +1,6 @@
 {
-  "name": "helloworldproject",
-  "description": "helloworldproject description",
+  "name": "helloworld",
+  "description": "helloworld description",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
