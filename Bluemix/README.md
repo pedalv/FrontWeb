@@ -40,6 +40,7 @@
 - [IBM ID](https://www-01.ibm.com/marketing/iwm/iwm/web/preLogin.do?source=idpe&S_TACT=105AGX05&S_CMP=JDK&lang=en_US&S_PKG=win64-6.3.10)
 - [IBM id registration](https://www.ibm.com/account/profile/us?page=reg&okURL=https%3A%2F%2Fwww-01.ibm.com%2Fmarketing%2Fiwm%2Fiwm%2Fweb%2Freg%2Fpick.do%3Fsource%3Didpe%26S_PKG%3Dwin64-6.3.10%26S_TACT%3D105AGX05%26S_CMP%3DJDK%26lang%3Den_US&required=fname+lname+oaddr+)
 - [IBM developer kits](https://www.ibm.com/developerworks/java/jdk/)
+- [IBM Development Package for Eclipse](https://www-01.ibm.com/marketing/iwm/iwm/web/reg/download.do?source=idpe&S_PKG=win64-6.3.10&S_TACT=105AGX05&S_CMP=JDK&lang=en_US&cp=UTF-8)
 - Linjene under kan fikse feil med Java VM men det kommer annen feil å installere IBM SDK 
 - [IBM SDK for Node.js](https://developer.ibm.com/node/sdk/)
 - [IBM SDK for Node.js Version 6](https://developer.ibm.com/node/sdk/v6/)
