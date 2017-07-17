@@ -1,5 +1,5 @@
-#JSF
-A easy solution for getting started with JavaServer Faces.
+# JSF
+Start with JavaServer Faces.
 
 # Tutorial
 - [JavaServer Faces Technology](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html) 
@@ -21,7 +21,7 @@ A easy solution for getting started with JavaServer Faces.
 - JSTL Core, JSP Standard Tag Library Core, xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
 - JSTL Functions, JSP Standard Tag Library Functions, xmlns:fn="http://xmlns.jcp.org/jsp/jstl/functions"
 
-# The FaceletsTemplating System
+# The Facelets Templating System
 - ui:include, Inserts the content of another Facelets XHTML file, <ui:include src=“header.xhtml”/>
 - ui:composition, Defines a page that uses a template 
 ```bash
@@ -36,4 +36,65 @@ A easy solution for getting started with JavaServer Faces.
 - ui:params, Passes a parameter to an included file or template
 - ui:decorate, Applies a template to part of a page
 
+# Implementing Business Logic
+- Managed Beans
+-- Concepts: lifecycle management and dependency injection
+-- A regular Java object, managed by a container
+-- Container: Java EE application server
+-- The container manages the lifecycleof the object
+-- Client code lets the container provide the bean through dependency injection
+- Contexts and Dependency Injection
+-- EXAMPLE: ProductService
+-- Is a ProductService object stateful or stateless?
+-- How do I get an instance of the ProductService?
+- Bean Scopes
 
+# Using Managed Beans in Facelets Pages
+- Expression Language
+
+# Contexts and Dependency Injection
+- Standard Java EE API
+- Annotations
+- Scopes (Making Beans Serializable)
+-- CDI standard scopes
+--- Package, javax.enterprise.context
+--- Request scope: @RequestScoped, Single HTTP request-response cycle
+---- Example: Holding query results
+--- Session scope: @SessionScoped, HTTP user session 
+---- Examples: User information, shopping cart content
+--- Application scope: @ApplicationScoped, Application-wide, shared by all sessions
+---- Example: Stateless objects that can be shared by all sessions
+--- Conversation scope: @ConversationScoped, For the duration of a programmer-defined conversation
+---- Example: The checkout process in a web shop 
+-- JSF specific scopes
+--- View scope: @ViewScoped, All requests while staying in the same view
+--- Flow scope: @FlowScoped, Faces Flows
+-- Choosing a Scope for Your Beans
+-- Making Beans Serializable
+- Dependency Injection
+- Naming Beans
+-- Name a bean with @Named
+- CDI Bean Requirements: No arguments constructor, or constructor with @Inject
+- Dependency Injection with @Inject
+
+# Annotations
+| Old Annotation | New Annotation |
+| -------------- | -------------- |
+| javax.faces.bean.RequestScoped | javax.enterprise.context.RequestScoped |
+| javax.faces.bean.SessionScoped | javax.enterprise.context.SessionScoped |
+| javax.faces.bean.ApplicationScoped | javax.enterprise.context.ApplicationScoped |
+| javax.faces.bean.ViewScoped | javax.faces.view.ViewScoped |
+| javax.faces.bean.ManagedBean | javax.annotation.ManagedBean and javax.inject.Named |
+| javax.faces.bean.ManagedProperty | javax.inject.Inject |
+
+
+# ps-jsf-helloworld 
+- Basic app for introduction and overview of JavaServer Faces
+ 
+# ps-jsf-musicshop  
+-  Musicshop App for creating web pages using facelets
+- Adding business logic using managed beans and expressions languag
+- Handling user input
+- Implementing page navigation
+- Building your own components
+- Using ajax
