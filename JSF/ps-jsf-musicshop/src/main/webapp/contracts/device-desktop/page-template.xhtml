@@ -8,12 +8,13 @@
     <h:head>
         <meta charset="UTF-8"/>
         <title>JSF Music Shop - #{pageTitle}</title>
-        <h:outputStylesheet library="musicshop" name="css/default.css"/>
+        <h:outputStylesheet name="layout.css"/>
+        <h:outputStylesheet name="theme.css"/>
     </h:head>
     <h:body>
-        <ui:include src="/templates/page-header.xhtml"/>
+        <ui:include src="/page-header.xhtml"/>
         <ui:insert name="panel-top">
-            <ui:include src="/templates/panel-top-default.xhtml"/>
+            <ui:include src="/panel-top-default.xhtml"/>
         </ui:insert>
         <ui:insert name="panel-main">
             <section>
@@ -21,7 +22,7 @@
                 <p>Placeholder text.</p>
             </section>
         </ui:insert>
-        <ui:include src="/templates/page-footer.xhtml"/>
+        <ui:include src="/page-footer.xhtml"/>
     </h:body>
 </f:view>
 </html>
