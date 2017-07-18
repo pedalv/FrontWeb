@@ -7,9 +7,9 @@ Start with JavaServer Faces.
 # Instaling the Tools
 - [Java Development kit (JDK) 8](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - [Java EE 7 SDK](http://www.oracle.com/technetwork/java/javaee/downloads/index.html)
+- [GlassFish Tools - Install pluging from eclipse marketplace](https://marketplace.eclipse.org/content/glassfish-tools) 
 - [Eclipse IDE](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2)
 - [Apache Maven](https://maven.apache.org/download.cgi)
-
 
 # JSF Standard Tag Libraries
 - HTML, Standard HTML UI components, xmlns:h="http://xmlns.jcp.org/jsf/html"
