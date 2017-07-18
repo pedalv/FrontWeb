@@ -39,14 +39,22 @@ Start with JavaServer Faces.
 # Implementing Business Logic
 - Managed Beans
 > Concepts: lifecycle management and dependency injection.
+
 > A regular Java object, managed by a container.
+
 > Container: Java EE application server.
+
 > The container manages the lifecycleof the object.
+
 > Client code lets the container provide the bean through dependency injection.
+
 - Contexts and Dependency Injection
 > EXAMPLE: ProductService.
+
 > Is a ProductService object stateful or stateless?
+
 > How do I get an instance of the ProductService?
+
 - Bean Scopes
 
 # Using Managed Beans in Facelets Pages
@@ -57,25 +65,34 @@ Start with JavaServer Faces.
 - Annotations
 - Scopes (Making Beans Serializable)
 > Choosing a Scope for Your Beans.
+
 > Making Beans Serializable.
 
 1 CDI standard scopes
 - Package, javax.enterprise.context
+
 1.1 Request scope: @RequestScoped, Single HTTP request-response cycle.
+
 1.1.1 Example: Holding query results.
 
 1.2 Session scope: @SessionScoped, HTTP user session. 
+
 1.2.1 Examples: User information, shopping cart content.
 
 1.3 Application scope: @ApplicationScoped, Application-wide, shared by all sessions.
+
 1.3.1 Example: Stateless objects that can be shared by all sessions.
 
 1.4 Conversation scope: @ConversationScoped, For the duration of a programmer-defined conversation.
+
 1.4.1 Example: The checkout process in a web shop. 
 
 2 JSF specific scopes
+
 2.1 View scope: @ViewScoped, All requests while staying in the same view.
+
 2.2 Flow scope: @FlowScoped, Faces Flows.
+
 - Dependency Injection
 - Naming Beans
 > Name a bean with @Named
