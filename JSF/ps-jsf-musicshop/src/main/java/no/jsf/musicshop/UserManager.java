@@ -1,9 +1,14 @@
 package no.jsf.musicshop;
 
 import javax.enterprise.context.SessionScoped;
+import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
+
+//import com.jesperdj.jsf.musicshop.User;
+//import com.jesperdj.jsf.musicshop.UserService;
+
 import java.io.Serializable;
 
 @Named
@@ -28,12 +33,15 @@ public class UserManager implements Serializable {
     public String signIn(String username, String password) {
         User user = userService.getUser(username);
         if (user == null || !password.equals(user.getPassword())) {
+            FacesContext.getCurrentInstance().addMessage(null,
+                    new FacesMessage("Please enter a valid username and password."));
             return "sign-in";
         }
 
         currentUser = user;
         return "index";
     }
+
 
     public String signOut() {
         // End the session, removing any session state, including the current user and content of the shopping cart
@@ -48,4 +56,5 @@ public class UserManager implements Serializable {
         currentUser = user;
         return "index";
     }
+        
 }
