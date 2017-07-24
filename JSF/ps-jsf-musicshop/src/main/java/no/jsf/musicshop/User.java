@@ -24,8 +24,10 @@ public class User implements Serializable {
     @Size(min = 1, max = 30, message = "Please enter a last name between 1 and 30 characters long.")
     private String lastName;
     
+    @ValidEmailAddress
     private String emailAddress;
     
+    @ValidPhoneNumber
     private String phoneNumber;
     
     @Past(message = "Your birth date must be in the past.")
