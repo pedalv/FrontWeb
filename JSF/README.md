@@ -109,9 +109,25 @@ Start with JavaServer Faces.
 | javax.faces.bean.ManagedBean | javax.annotation.ManagedBean and javax.inject.Named |
 | javax.faces.bean.ManagedProperty | javax.inject.Inject |
 
+# Lifecycle Phases
+## The FacesContextobject stores all context information for processing the current request
+## Execute
+1 Restore View
+1.1 Create a new, empty component tree
+1.2 or Restore the component tree
+2 Apply Request Values
+3 Process Validations
+4 Update Model Values
+5 Invoke Application
+##Render
+6 Render Response
+6.1 Populate the component tree
+6.2 Render the page (generate HTML) 
+6.3 Save the component tree
+6.4 or Populate the component tree, generate HTML, save the component tree
 
-# ps-jsf-helloworld 
-- Basic app for introduction and overview of JavaServer Faces ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
+# ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
+- Basic app for introduction and overview of JavaServer Faces 
  
 # ps-jsf-musicshop  ([http://localhost:8080/musicshop/](http://localhost:8080/musicshop/))
 -  Musicshop App for creating web pages using facelets
