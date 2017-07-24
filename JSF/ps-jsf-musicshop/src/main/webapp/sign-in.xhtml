@@ -27,22 +27,31 @@
     <ui:define name="panel-main">
         <ui:fragment rendered="#{not userManager.signedIn}">
         	<section>
+        		<h:messages styleClass="validation-messages"/>
                 <h:form>
-                	<h:messages style="color:red" />
                     <h:panelGrid columns="2" styleClass="form-grid" columnClasses="form-column-label,form-column-input">
                         <h:outputLabel for="username">Username</h:outputLabel>
                         <h:inputText id="username" value="#{signIn.username}" size="20"
-                                     validatorMessage="Please enter a username consisting of only letters and digits, between 2 and 20 characters long.">
+                                     validatorMessage="Please enter a username consisting of only letters and digits, between 2 and 20 characters long." 
+                                     valueChangeListener="#{loggingEventHandlers.valueChanged}">
+                            <f:event type="preValidate" listener="#{loggingEventHandlers.beforeValidation}"/>
+                            <f:event type="postValidate" listener="#{loggingEventHandlers.afterValidation}"/>
                             <f:validateRegex pattern="[A-Za-z0-9]{2,20}"/>
                         </h:inputText>
 
-                        <h:outputLabel for="password">Password</h:outputLabel>
+						<h:outputLabel for="password">Password</h:outputLabel>
                         <h:inputSecret id="password" value="#{signIn.password}" size="20"
-                                       required="true" requiredMessage="Please enter your password."/>
+                        	required="true" requiredMessage="Please enter your password.">
+                            <f:event type="preValidate" listener="#{loggingEventHandlers.beforeValidation}"/>
+                            <f:event type="postValidate" listener="#{loggingEventHandlers.afterValidation}"/>
+                        </h:inputSecret>
 
-                        <h:outputText value=""/>
-                        <h:commandButton value="Submit" action="#{signIn.submit}"/>
-                    </h:panelGrid>
+	     				<h:outputText value=""/>
+                        <h:commandButton id="submit" value="Submit" action="#{signIn.submit}"
+                                         actionListener="#{loggingEventHandlers.actionPerformed}"/>
+					</h:panelGrid>
+                    <f:event type="postAddToView" listener="#{loggingEventHandlers.addedToView}"/>
+                    <f:event type="preRenderComponent" listener="#{loggingEventHandlers.beforeRenderComponent}"/>
                 </h:form>
             </section>
         </ui:fragment>
