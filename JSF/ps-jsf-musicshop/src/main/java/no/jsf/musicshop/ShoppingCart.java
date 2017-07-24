@@ -63,6 +63,17 @@ public class ShoppingCart implements Serializable {
             }
         }
     }
+    
+    public void empty() {
+    	Iterator<ShoppingCartLine> it = getLines().iterator();
+        
+    	while (it.hasNext()) {
+    		ShoppingCartLine line = it.next();
+    		Product product = line.getProduct();
+    		it.remove();
+    		decrementTotalQuantityAndAmount(product.getPrice());
+        }
+    }
 
     private void incrementTotalQuantityAndAmount(BigDecimal productPrice) {
         totalQuantity++;

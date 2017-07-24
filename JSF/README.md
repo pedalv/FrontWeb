@@ -183,11 +183,29 @@ public class MyBean{
 
 # Navigation 
 ```bash
-<h:outputLinkvalue="index.xhtml">Back to Popular Products</h:outputLink>
+<h:outputLinkvalue="index.xhtml">Back to Popular Products</h:outputLink> or
+<h:link value="Back to Popular Products" outcome="index"/>
 
 <a href="index.xhtml">Back to Popular Products</a>
 ```
 
+## Kinds of Flow Nodes
+- View node
+> Display a view (page)
+- Method call node
+> Call a method
+- Switch node
+> Select one of a series of cases
+- Return node
+> End the flow
+- Flow call node
+> Call another flow
+
+## Configuring Flows
+- XML configuration file
+> In faces-config.xmlor in a separate file
+- In Java using the flow builder API
+> CDI producer method with @FlowDefinitionannotation
 
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 

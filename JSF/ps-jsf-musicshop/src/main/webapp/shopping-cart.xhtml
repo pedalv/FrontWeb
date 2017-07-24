@@ -18,7 +18,10 @@
             <ui:fragment rendered="#{shoppingCart.totalQuantity > 1}">
                 <p>Your shopping cart contains #{shoppingCart.totalQuantity} items.</p>
             </ui:fragment>
-            <p><h:outputLink value="index.xhtml">Back to Popular Products</h:outputLink></p>
+            <p>
+            	<!-- <h:outputLink value="index.xhtml">Back to Popular Products</h:outputLink>  -->
+            	<h:link value="Back to Popular Products" outcome="home"/>
+            </p>
         </section>
     </ui:define>
     <ui:define name="panel-main">
@@ -54,6 +57,7 @@
                             <f:facet name="footer">#{shoppingCart.totalAmount}</f:facet>
                         </h:column>
                     </h:dataTable>
+                    <h:commandButton value="Proceed to Checkout" action="checkout" styleClass="button-right"/>
                 </h:form>
             </section>
         </ui:fragment>
