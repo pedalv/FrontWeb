@@ -8,9 +8,6 @@ import javax.validation.constraints.Past;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-import com.jesperdj.jsf.musicshop.ValidEmailAddress;
-import com.jesperdj.jsf.musicshop.ValidPhoneNumber;
-
 public class User implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -27,10 +24,8 @@ public class User implements Serializable {
     @Size(min = 1, max = 30, message = "Please enter a last name between 1 and 30 characters long.")
     private String lastName;
     
-    @ValidEmailAddress
     private String emailAddress;
     
-    @ValidPhoneNumber
     private String phoneNumber;
     
     @Past(message = "Your birth date must be in the past.")

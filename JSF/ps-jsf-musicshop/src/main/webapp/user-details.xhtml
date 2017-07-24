@@ -51,26 +51,25 @@
 
                     <h:outputLabel for="phoneNumber">Phone number</h:outputLabel>
 					<h:inputText id="phoneNumber" value="#{userDetails.user.phoneNumber}" size="20">
-                        <f:validator validatorId="no.jsf.musicshop.PhoneNumber"/>
+                        <f:validator validatorId="no.jsf.PhoneNumber"/>
                     </h:inputText>
 					
-					<h:outputLabel for="birthDate">Birth date</h:outputLabel>
+					<h:outputLabel for="birthDate">Birth date (first way validation)</h:outputLabel>
                     <h:inputText id="birthDate" p:type="date" value="#{userDetails.user.birthDate}">
-                        <f:convertDateTime pattern="yyyy-MM-dd"/>
+                        <f:convertDateTime pattern="yyyy-MM-dd"/> 
                     </h:inputText>
-                    <!--  first way -->
-                    <h:outputLabel for="birthDate2">Birth date2</h:outputLabel>
+                    
+                    <h:outputLabel for="birthDate2">Birth date (second way validation)</h:outputLabel>
                     <h:inputText id="birthDate2" value="#{userDetails.user.birthDate}">
                         <f:convertDateTime pattern="yyyy-MM-dd"/>
                         <f:passThroughAttribute name="type" value="date" />
                     </h:inputText>
-                    <!--  second way -->
-                    <h:outputLabel for="birthDate3">Birth date3</h:outputLabel>
+                    
+                    <h:outputLabel for="birthDate3">Birth date (third way validation)</h:outputLabel>
                     <input type="date" jsf:id="birthDate3" jsf:value="#{userDetails.user.birthDate}">
                     	<f:convertDateTime pattern="yyyy-MM-dd"/>
                     </input>
-                    <!--  third way --> 
-                                    
+                      
                     <h:outputLabel for="subscribedToNewsletter">Subscribe to the newsletter?</h:outputLabel>
                     <h:selectOneRadio id="subscribedToNewsletter"
                                       value="#{userDetails.user.subscribedToNewsletter}">

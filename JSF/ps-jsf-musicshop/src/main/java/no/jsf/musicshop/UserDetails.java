@@ -28,6 +28,7 @@ public class UserDetails implements Serializable {
         user = userManager.isSignedIn() ? userManager.getCurrentUser() : new User();
     }
 
+    // must take three arguments
     public void validateEmail(FacesContext context, UIComponent component, Object value) {
         String emailAddress = (String) value;
         if (emailAddress != null && !emailAddress.equals("") && !emailAddress.contains("@")) {
