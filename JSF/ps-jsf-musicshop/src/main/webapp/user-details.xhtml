@@ -53,6 +53,13 @@
 					<h:inputText id="phoneNumber" value="#{userDetails.user.phoneNumber}" size="20">
                         <f:validator validatorId="no.jsf.PhoneNumber"/>
                     </h:inputText>
+                    
+                    <h:outputLabel for="phoneNumber2">Phone number (other way)</h:outputLabel>
+                    <h:inputText id="phoneNumber2" value="#{userDetails.user.phoneNumber2}" size="20">
+                        <f:converter converterId="no.jsf.converter.PhoneNumber" />
+                        <f:validator validatorId="no.jsf.validator.PhoneNumber"/>
+                    </h:inputText>
+                    
 					
 					<h:outputLabel for="birthDate">Birth date (first way validation)</h:outputLabel>
                     <h:inputText id="birthDate" p:type="date" value="#{userDetails.user.birthDate}">

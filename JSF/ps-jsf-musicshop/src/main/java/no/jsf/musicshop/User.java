@@ -30,6 +30,8 @@ public class User implements Serializable {
     @ValidPhoneNumber
     private String phoneNumber;
     
+    private PhoneNumber phoneNumber2;
+    
     @Past(message = "Your birth date must be in the past.")
     private Date birthDate;
     
@@ -83,8 +85,16 @@ public class User implements Serializable {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+    
+    public PhoneNumber getPhoneNumber2() {
+		return phoneNumber2;
+	}
 
-    public Date getBirthDate() {
+	public void setPhoneNumber2(PhoneNumber phoneNumber2) {
+		this.phoneNumber2 = phoneNumber2;
+	}
+
+	public Date getBirthDate() {
         return birthDate;
     }
 
