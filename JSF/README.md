@@ -113,18 +113,54 @@ Start with JavaServer Faces.
 ## The FacesContextobject stores all context information for processing the current request
 ## Execute
 1 Restore View
+
 1.1 Create a new, empty component tree
+
 1.2 or Restore the component tree
+
 2 Apply Request Values
+
 3 Process Validations
+
 4 Update Model Values
+
 5 Invoke Application
+
 ##Render
+
 6 Render Response
+
 6.1 Populate the component tree
+
 6.2 Render the page (generate HTML) 
+
 6.3 Save the component tree
+
 6.4 or Populate the component tree, generate HTML, save the component tree
+
+# Adding a Listener 
+##for Action Events
+1.1 
+```bash
+<h:commandButtonid="submit" value="Submit"actionListener="#{myBean.actionPerformed}"/>
+```
+1.2 
+```bash
+<h:commandButtonid="submit" value="Submit">
+ <f:actionListenertype="com.mypackage.MyListener"/>
+</h:commandButton>
+```
+## for Value Change Events
+2.1
+```bash
+<h:inputTextid="username" value="#{signIn.username}" valueChangeListener="#{myBean.valueChanged}">
+```
+2.2
+```bash
+<h:inputTextid="username" value="#{signIn.username}">
+ <f:valueChangeListenertype="com.mypackage.MyListener"/>
+</h:inputText>
+```
 
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 
