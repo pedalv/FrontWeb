@@ -139,7 +139,7 @@ Start with JavaServer Faces.
 6.4 or Populate the component tree, generate HTML, save the component tree
 
 # Adding a Listener 
-##for Action Events
+## for Action Events
 1.1 
 ```bash
 <h:commandButtonid="submit" value="Submit"actionListener="#{myBean.actionPerformed}"/>
@@ -149,6 +149,14 @@ Start with JavaServer Faces.
 <h:commandButtonid="submit" value="Submit">
  <f:actionListenertype="com.mypackage.MyListener"/>
 </h:commandButton>
+
+@Named
+@RequestScoped 
+public class MyBean{
+	public void actionPerformed(ActionEventevent){
+		//...
+	}
+}
 ```
 ## for Value Change Events
 2.1
@@ -161,6 +169,17 @@ Start with JavaServer Faces.
  <f:valueChangeListenertype="com.mypackage.MyListener"/>
 </h:inputText>
 ```
+## System Events
+- System-level events
+- Register listeners using <f:event>
+> Attribute type is the name of the event type
+> Attribute listenerrefers to a method to handle the event
+- System event types
+> postAddToView
+> preValidate
+> postValidate
+> preRenderView
+> preRenderComponent
 
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 
