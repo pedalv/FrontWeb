@@ -111,9 +111,9 @@ Start with JavaServer Faces.
 
 
 # ps-jsf-helloworld 
-- Basic app for introduction and overview of JavaServer Faces
+- Basic app for introduction and overview of JavaServer Faces ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
  
-# ps-jsf-musicshop  
+# ps-jsf-musicshop  ([http://localhost:8080/musicshop/](http://localhost:8080/musicshop/))
 -  Musicshop App for creating web pages using facelets
 - Adding business logic using managed beans and expressions languag
 - Handling user input
