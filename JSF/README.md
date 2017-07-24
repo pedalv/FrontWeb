@@ -181,6 +181,14 @@ public class MyBean{
 > preRenderView
 > preRenderComponent
 
+# Navigation 
+```bash
+<h:outputLinkvalue="index.xhtml">Back to Popular Products</h:outputLink>
+
+<a href="index.xhtml">Back to Popular Products</a>
+```
+
+
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 
  

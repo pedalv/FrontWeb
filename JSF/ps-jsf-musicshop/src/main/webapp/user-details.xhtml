@@ -29,7 +29,7 @@
                         <f:validateRegex pattern="[A-Za-z0-9]{2,20}"/>
                     </h:inputText>
 
-                    <h:outputLabel for="password">Password</h:outputLabel>
+                    <h:outputLabel for="password">Password</h:outputLabel>	
                     <h:inputSecret id="password" value="#{userDetails.user.password}" size="20"
                                    required="true" requiredMessage="Please enter a password."/>
 
@@ -62,18 +62,21 @@
                     
 					
 					<h:outputLabel for="birthDate">Birth date (first way validation)</h:outputLabel>
-                    <h:inputText id="birthDate" p:type="date" value="#{userDetails.user.birthDate}">
+                    <h:inputText id="birthDate" p:type="date" value="#{userDetails.user.birthDate}"
+                       	converterMessage="Please enter a date like yyyy-MM-dd.">
                         <f:convertDateTime pattern="yyyy-MM-dd"/> 
                     </h:inputText>
                     
                     <h:outputLabel for="birthDate2">Birth date (second way validation)</h:outputLabel>
-                    <h:inputText id="birthDate2" value="#{userDetails.user.birthDate}">
+                    <h:inputText id="birthDate2" value="#{userDetails.user.birthDate}"
+                    	converterMessage="Please enter a date like yyyy-MM-dd.">
                         <f:convertDateTime pattern="yyyy-MM-dd"/>
                         <f:passThroughAttribute name="type" value="date" />
                     </h:inputText>
                     
                     <h:outputLabel for="birthDate3">Birth date (third way validation)</h:outputLabel>
-                    <input type="date" jsf:id="birthDate3" jsf:value="#{userDetails.user.birthDate}">
+                    <input type="date" jsf:id="birthDate3" jsf:value="#{userDetails.user.birthDate}"
+                    	converterMessage="Please enter a date like yyyy-MM-dd.">
                     	<f:convertDateTime pattern="yyyy-MM-dd"/>
                     </input>
                       

@@ -6,6 +6,8 @@ import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
 
+import no.jsf.musicshop.User;
+
 //import com.jesperdj.jsf.musicshop.User;
 //import com.jesperdj.jsf.musicshop.UserService;
 
@@ -29,20 +31,25 @@ public class UserManager implements Serializable {
     public User getCurrentUser() {
         return currentUser;
     }
-
+    
     public String signIn(String username, String password) {
         User user = userService.getUser(username);
         if (user == null || !password.equals(user.getPassword())) {
             FacesContext.getCurrentInstance().addMessage(null,
                     new FacesMessage("Please enter a valid username and password."));
-            return "sign-in";
+            return "failure";
         }
 
         currentUser = user;
-        return "index";
+        return "success";
     }
 
-
+    // Use navigation and faces.config.xml to clean signOut method 
+    public void signOut() {
+        // End the session, removing any session state, including the current user and content of the shopping cart
+        FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
+    }
+    /*
     public String signOut() {
         // End the session, removing any session state, including the current user and content of the shopping cart
         FacesContext.getCurrentInstance().getExternalContext().invalidateSession();
@@ -50,7 +57,7 @@ public class UserManager implements Serializable {
         // Redirect is necessary to let the browser make a new GET request
         return "index?faces-redirect=true";
     }
-
+    */
     public String save(User user) {
         userService.saveUser(user);
         currentUser = user;
