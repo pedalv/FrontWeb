@@ -70,6 +70,7 @@ public class ShoppingCart implements Serializable {
     	while (it.hasNext()) {
     		ShoppingCartLine line = it.next();
     		Product product = line.getProduct();
+    		line.decrementQuantityAndAmount();
     		it.remove();
     		decrementTotalQuantityAndAmount(product.getPrice());
         }

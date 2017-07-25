@@ -1,4 +1,4 @@
-package checkout;
+package no.jsf.musicshop.checkout;
 
 import javax.enterprise.inject.Produces;
 import javax.faces.flow.Flow;
@@ -38,10 +38,13 @@ public class CheckoutFlow implements Serializable {
         builder.viewNode("success", "/checkout/payment-success.xhtml");
 
         builder.viewNode("failure", "/checkout/payment-failure.xhtml");
-
+        
         builder.returnNode("finished")
                 .fromOutcome("home");
 
+        //builder.viewNode("home", "/index.xhtml");
+        
+        
         return builder.getFlow();
     }
 }

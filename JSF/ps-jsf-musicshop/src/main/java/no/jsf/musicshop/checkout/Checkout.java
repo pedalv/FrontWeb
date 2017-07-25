@@ -1,4 +1,4 @@
-package checkout;
+package no.jsf.musicshop.checkout;
 
 import no.jsf.musicshop.ShoppingCart;
 import no.jsf.musicshop.User;
