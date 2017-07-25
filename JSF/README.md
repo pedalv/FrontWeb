@@ -224,6 +224,30 @@ public class MyBean{
 > Converters and validators
 > Events
 
+# The f:ajaxTag
+## Send an AJAX request when a component fires an event
+> Clicking a button or link
+> Changing the value of a text input component
+> A component gaining or losing focus
+> Mouse or keyboard interaction
+
+```bash
+<h:inputTextvalue="#{userDetails.user.username}">
+	<f:ajax event="For which type of event the AJAX request should be performed"
+			execute="Which components should participate in the execute phase of the lifecycle"
+			render="Which components should participate in the render phase of the lifecycle"
+			...
+			listener="attach a server-side event listener"
+			onevent="attach a client-side event listener"
+			onerror="attach a client-side error handler" />
+</h:inputText>11
+```
+## Execute and Render Attributes
+> @all, all components on the page
+> @form, all components in the form
+> @this, the component itself
+> @none, no components
+
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 
  

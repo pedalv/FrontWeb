@@ -3,11 +3,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:f="http://xmlns.jcp.org/jsf/core"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf">
 <ui:composition template="/page-template.xhtml">
     <ui:param name="pageTitle" value="Shopping Cart"/>
     <ui:define name="panel-top">
-        <section>
+        <section  jsf:id="panel-top-section">
             <h1>Shopping Cart</h1>
             <ui:fragment rendered="#{shoppingCart.totalQuantity == 0}">
                 <p>Your shopping cart is empty.</p>
@@ -25,10 +26,10 @@
         </section>
     </ui:define>
     <ui:define name="panel-main">
-        <ui:fragment rendered="#{not empty shoppingCart.lines}">
-            <section>
-                <h:form>
-                    <h:dataTable value="#{shoppingCart.lines}" var="line"
+        <h:form>
+	        <ui:fragment rendered="#{not empty shoppingCart.lines}">
+	            <section>
+	                <h:dataTable value="#{shoppingCart.lines}" var="line"
                                  styleClass="shoppingcart-table"
                                  headerClass="shoppingcart-header"
                                  rowClasses="shoppingcart-row-odd,shoppingcart-row-even"
@@ -47,9 +48,15 @@
                         </h:column>
                         <h:column>
                             <f:facet name="header">Quantity</f:facet>
-                            #{line.quantity}
-                            <h:commandButton value="+" action="#{shoppingCart.addProduct(line.product)}"/>
-                            <h:commandButton value="-" action="#{shoppingCart.removeProduct(line.product)}"/>
+                             #{line.quantity}
+                             <h:commandButton value="+" action="#{shoppingCart.addProduct(line.product)}"
+                                              style="margin-left: 0.25em;">
+                                 <f:ajax render="@form panel-top-section"/>
+                             </h:commandButton>
+                             <h:commandButton value="-" action="#{shoppingCart.removeProduct(line.product)}"
+                                              style="margin-left: 0.25em;">
+                                 <f:ajax render="@form panel-top-section"/>
+                             </h:commandButton>
                         </h:column>
                         <h:column>
                             <f:facet name="header">Amount</f:facet>
@@ -58,9 +65,9 @@
                         </h:column>
                     </h:dataTable>
                     <h:commandButton value="Proceed to Checkout" action="checkout" styleClass="button-right"/>
-                </h:form>
-            </section>
-        </ui:fragment>
+            	</section>
+			</ui:fragment>
+		</h:form>
     </ui:define>
 </ui:composition>
 </html>
