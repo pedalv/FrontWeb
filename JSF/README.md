@@ -215,6 +215,15 @@ public class MyBean{
 - Register the tag library
 > Add a context parameter to web.xml
 
+# Creating Composite Components
+- Components are self-contained
+> Interface and implementation are separated
+> Implementation details are hidden
+- Components are more powerful than tags
+> A component contains its own data and logic
+> Converters and validators
+> Events
+
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 
  
