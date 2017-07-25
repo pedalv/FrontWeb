@@ -207,6 +207,14 @@ public class MyBean{
 - In Java using the flow builder API
 > CDI producer method with @FlowDefinitionannotation
 
+# Create a Custom Tag Library
+- Create tag files
+> Facelets template files with ui:composition
+- Create a Faceletstag library descriptor
+> Describes the tags of the tag library
+- Register the tag library
+> Add a context parameter to web.xml
+
 # ps-jsf-helloworld ([http://localhost:8080/ps-jsf-helloworld/](http://localhost:8080/ps-jsf-helloworld/))
 - Basic app for introduction and overview of JavaServer Faces 
  

@@ -5,7 +5,8 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
       xmlns:p="http://xmlns.jcp.org/jsf/passthrough"
-      xmlns:jsf="http://xmlns.jcp.org/jsf">
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:mt="http://jesperdj.com/jsf/musicshop">
 <ui:composition template="/page-template.xhtml">
     <f:metadata>
         <f:viewAction action="#{userDetails.onload}"/>
@@ -50,9 +51,12 @@
                                  validator="#{userDetails.validateEmail}"/>
 
                     <h:outputLabel for="phoneNumber">Phone number</h:outputLabel>
+					<!-- 
 					<h:inputText id="phoneNumber" value="#{userDetails.user.phoneNumber}" size="20">
                         <f:validator validatorId="no.jsf.PhoneNumber"/>
                     </h:inputText>
+                    -->
+                    <mt:phoneNumber id="phoneNumber" value="#{userDetails.user.phoneNumber}"/>
                     
                     <h:outputLabel for="phoneNumber2">Phone number (other way)</h:outputLabel>
                     <h:inputText id="phoneNumber2" value="#{userDetails.user.phoneNumber2}" size="20">
@@ -62,18 +66,21 @@
                     
 					
 					<h:outputLabel for="birthDate">Birth date (first way validation)</h:outputLabel>
+                    <!--  
                     <h:inputText id="birthDate" p:type="date" value="#{userDetails.user.birthDate}"
                        	converterMessage="Please enter a date like yyyy-MM-dd.">
                         <f:convertDateTime pattern="yyyy-MM-dd"/> 
                     </h:inputText>
-                    
+					-->
+                    <mt:inputDate id="birthDate" value="#{userDetails.user.birthDate}"/>
+
                     <h:outputLabel for="birthDate2">Birth date (second way validation)</h:outputLabel>
                     <h:inputText id="birthDate2" value="#{userDetails.user.birthDate}"
                     	converterMessage="Please enter a date like yyyy-MM-dd.">
                         <f:convertDateTime pattern="yyyy-MM-dd"/>
                         <f:passThroughAttribute name="type" value="date" />
                     </h:inputText>
-                    
+
                     <h:outputLabel for="birthDate3">Birth date (third way validation)</h:outputLabel>
                     <input type="date" jsf:id="birthDate3" jsf:value="#{userDetails.user.birthDate}"
                     	converterMessage="Please enter a date like yyyy-MM-dd.">
@@ -81,11 +88,28 @@
                     </input>
                       
                     <h:outputLabel for="subscribedToNewsletter">Subscribe to the newsletter?</h:outputLabel>
+                    <!--  
                     <h:selectOneRadio id="subscribedToNewsletter"
                                       value="#{userDetails.user.subscribedToNewsletter}">
                         <f:selectItem itemValue="#{true}" itemLabel="Yes"/>
                         <f:selectItem itemValue="#{false}" itemLabel="No"/>
                     </h:selectOneRadio>
+                    -->
+                    <mt:selectYesNo id="subscribedToNewsletter" value="#{userDetails.user.subscribedToNewsletter}"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                     <h:outputText value=""/>
                     <h:commandButton value="Submit" action="#{userDetails.submit}"/>
