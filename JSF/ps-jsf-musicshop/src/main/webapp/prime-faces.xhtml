@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<ui:composition template="/page-template.xhtml">
+    <ui:param name="pageTitle" value="PrimeFaces Examples"/>
+    <ui:define name="panel-main">
+        <section class="PrimeFaces-information">
+			
+			<p>
+				<h:outputLink value="https://github.com/primefaces/primefaces" target="_blank">
+					PrimeFaces GitHub
+				</h:outputLink>
+			</p>
+			<p>
+				<h:outputLink value="https://www.primefaces.org/docs/guide/primefaces_user_guide_6_1.pdf" target="_blank">
+					PrimeFaces User Guide 6.1
+				</h:outputLink>
+			</p>
+			
+			<h:form>
+				<h:inputText  value="#{primeFaces.redirectURL}" />
+				<br />
+				<p:spinner />
+				<br />
+				<p:inputText value="#{primeFaces.redirectURL}"/>
+				<br />
+				<p:calendar value="#{primeFaces.date}"/>
+			</h:form>
+						
+        </section>
+    </ui:define>
+</ui:composition>
+</html>
