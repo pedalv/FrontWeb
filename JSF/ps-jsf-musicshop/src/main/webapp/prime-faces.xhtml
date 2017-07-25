@@ -6,6 +6,9 @@
       xmlns:p="http://primefaces.org/ui"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
 <ui:composition template="/page-template.xhtml">
+	<f:metadata>
+        <f:viewAction action="#{primeFaces.onload}"/>
+    </f:metadata>
     <ui:param name="pageTitle" value="PrimeFaces Examples"/>
     <ui:define name="panel-main">
         <section class="PrimeFaces-information">
@@ -22,13 +25,23 @@
 			</p>
 			
 			<h:form>
-				<h:inputText  value="#{primeFaces.redirectURL}" />
+				<p>
+					<h:inputText disabled="disable" value="#{primeFaces.redirectURL}" style="width:300px;"  />
+				</p>
+				<br />
+				<p>
+					<h:inputText disabled="disable" value="#{primeFaces.date}" style="width:300px;"  />
+				</p>
 				<br />
 				<p:spinner />
 				<br />
-				<p:inputText value="#{primeFaces.redirectURL}"/>
+				<p>
+					<p:inputText value="#{primeFaces.redirectURL}"/>
+				</p>
 				<br />
-				<p:calendar value="#{primeFaces.date}"/>
+				<p>
+					<p:calendar value="#{primeFaces.date}"/>
+				</p>
 			</h:form>
 						
         </section>

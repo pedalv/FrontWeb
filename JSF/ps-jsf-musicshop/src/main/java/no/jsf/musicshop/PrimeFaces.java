@@ -14,7 +14,7 @@ public class PrimeFaces implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Date date;
-	private String redirectURL = "https://github.com/primefaces/primefaces";
+	private String redirectURL;
 	
 	public Date getDate() {
 		return date;
@@ -32,4 +32,9 @@ public class PrimeFaces implements Serializable {
 		this.redirectURL = redirectURL;
 	}
 	
+	public void onload() {
+		date = new Date();
+		redirectURL = "https://github.com/primefaces/primefaces";
+    }
+
 }
