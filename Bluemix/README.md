@@ -4,6 +4,7 @@
 - [Linux Command](http://www.linuxcommand.org/index.php)
 - [Tools for Node.js Developers on Bluemix ](https://dzone.com/articles/tools-for-nodejs-developers-on-bluemix)
 - [IBM Bluemix Catalog](https://console.bluemix.net/catalog/)
+- [Develop in the cloud at the click of a button!](https://developer.ibm.com/sso/bmregistration?lang=en_US&ca=dw-_-bluemix-_-wasdevelopers-dl-_-service-tile)
 
 # Tutorial
 - [Getting Started with Bluemix and Bluemix DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditor/)
