@@ -3,6 +3,7 @@
 - [Bluemix Live Sync](https://console.ng.bluemix.net/docs/develop/bluemixlive.html)
 - [Linux Command](http://www.linuxcommand.org/index.php)
 - [Tools for Node.js Developers on Bluemix ](https://dzone.com/articles/tools-for-nodejs-developers-on-bluemix)
+- [IBM Bluemix Catalog](https://console.bluemix.net/catalog/)
 
 # Tutorial
 - [Getting Started with Bluemix and Bluemix DevOps Services using Node.js](https://hub.jazz.net/tutorials/jazzeditor/)
