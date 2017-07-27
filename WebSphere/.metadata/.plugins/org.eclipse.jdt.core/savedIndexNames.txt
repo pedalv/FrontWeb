@@ -1,0 +1,10 @@
+INDEX VERSION 1.130+D:\CASET\FrontApp\WebSphere\.metadata\.plugins\org.eclipse.jdt.core
+3892047972.index
+299072603.index
+724176529.index
+3060108552.index
+899639427.index
+66156988.index
+389000874.index
+4254311351.index
+3805037782.index

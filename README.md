@@ -6,6 +6,10 @@ Front-end projects to build competence.
 git clone https://github.com/pedalv/FrontApp.git
 ```
 
+# Project 5: WebSphere
+- Project for start with [WebSphere application server for developers](http://www-03.ibm.com/software/products/en/appserv-was).
+- WebSphere project is located on [https://github.com/pedalv/FrontApp/tree/master/WebSphere](https://github.com/pedalv/FrontApp/tree/master/WebSphere)
+
 # Project 4: JSF
 - Project for start with [JavaServe Faces](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html).
 - JSF project is located on [https://github.com/pedalv/FrontApp/tree/master/JSF](https://github.com/pedalv/FrontApp/tree/master/JSF)

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="7" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd">
+ <display-name>ListManager</display-name>
+ <module id="Module_1501073076648">
+ 	<web>
+ 		<web-uri>LisManagerWeb.war</web-uri>
+ 		<context-root>LisManagerWeb</context-root>
+ 	</web>
+ </module>
+ <module id="Module_1501074317587">
+ 	<web>
+ 		<web-uri>ListManagerWebServices.war</web-uri>
+ 		<context-root>ListManagerWebServices</context-root>
+ 	</web>
+ </module> 
+ </application> 

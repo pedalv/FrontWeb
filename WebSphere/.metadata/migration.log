@@ -1,0 +1,14 @@
+
+INFO     Validating project: LisManagerWeb
+INFO     Finished validating project: LisManagerWeb
+
+INFO     Validating project: ListManager
+INFO     Finished validating project: ListManager
+
+INFO     Validating project: ListManagerDataAcess
+INFO     Finished validating project: ListManagerDataAcess
+
+INFO     Validating project: ListManagerWebServices
+INFO     Finished validating project: ListManagerWebServices
+
+Migration complete

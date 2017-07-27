@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1416985173972">
+  <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1416985173972" deploymentId="0" startingWeight="1" binariesURL="$(APP_INSTALL_ROOT)/WIN-F8QH15674T8Node01Cell/ListManager.ear" useMetadataFromBinaries="false" enableDistribution="true" createMBeansForResources="true" reloadEnabled="false" appContextIDForSecurity="href:WIN-F8QH15674T8Node01Cell/ListManager" filePermission=".*\.dll=755#.*\.so=755#.*\.a=755#.*\.sl=755" allowDispatchRemoteInclude="false" allowServiceRemoteInclude="false" asyncRequestDispatchType="DISABLED" standaloneModule="false" enableClientModule="false">
+    <targetMappings xmi:id="DeploymentTargetMapping_1416985173972" enable="true" target="ServerTarget_1416985173972"/>
+    <classloader xmi:id="Classloader_1416985173972" mode="PARENT_LAST"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1416985173972" deploymentId="1" startingWeight="10000" uri="ListManagerWeb.war" classloaderMode="PARENT_LAST" containsEJBContent="0">
+      <targetMappings xmi:id="DeploymentTargetMapping_1416985173973" target="ServerTarget_1416985173972"/>
+      <classloader xmi:id="Classloader_1416985173973"/>
+    </modules>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1416985173973" deploymentId="1" startingWeight="10000" uri="ListManagerWebServices.war" classloaderMode="PARENT_LAST" containsEJBContent="0">
+      <targetMappings xmi:id="DeploymentTargetMapping_1416985173974" target="ServerTarget_1416985173972"/>
+      <classloader xmi:id="Classloader_1416985173974"/>
+    </modules>
+    <properties xmi:id="Property_1416985173972" name="metadata.complete" value="false"/>
+  </deployedObject>
+  <deploymentTargets xmi:type="appdeployment:ServerTarget" xmi:id="ServerTarget_1416985173972" name="server1" nodeName="WIN-F8QH15674T8Node01"/>
+</appdeployment:Deployment>
