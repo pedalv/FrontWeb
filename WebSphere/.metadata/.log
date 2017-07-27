@@ -585,3 +585,63 @@ java.lang.Exception: deploy is failing=Application with name [ListManager] is no
 	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2017-07-27 15:27:51.211
+!MESSAGE deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [ListManager] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishDeployedDirectory(GlassFishServerBehaviour.java:603)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:830)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:790)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2017-07-27 15:27:51.211
+!MESSAGE cannot Deploy ListManager
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [ListManager] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishDeployedDirectory(GlassFishServerBehaviour.java:603)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:830)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:790)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2017-07-27 15:28:56.292
+!MESSAGE deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [ListManager] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishDeployedDirectory(GlassFishServerBehaviour.java:603)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:830)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:790)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY oracle.eclipse.tools.glassfish 4 0 2017-07-27 15:28:56.307
+!MESSAGE cannot Deploy ListManager
+!STACK 0
+java.lang.Exception: deploy is failing=Application with name [ListManager] is not deployed
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishDeployedDirectory(GlassFishServerBehaviour.java:603)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:830)
+	at oracle.eclipse.tools.glassfish.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:790)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
