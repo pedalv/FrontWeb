@@ -10,6 +10,7 @@
 - [Develop and run with WebSphere Liberty](https://developer.ibm.com/wasdev/)
 - [Download the latest stable WebSphere Liberty runtime](https://developer.ibm.com/wasdev/downloads/download-latest-stable-websphere-liberty-runtime/)
 - [IBM® WebSphere® Application Server for Developers - WAS V9.0 Trial](http://www-03.ibm.com/software/products/en/appserv-was)
+- [IBM Support](http://www-01.ibm.com/support/docview.wss?uid=swg27007791)
 
 # Installation Notes
 - Need a IBMid account
@@ -94,7 +95,7 @@ Use websphere to run, deploy the List Manager Application project
 
 - [http://localhost:8080/ListManagerWebServices/UserSoapService?wsdl](http://localhost:8080/ListManagerWebServices/UserSoapService/UserSoapService.wsdl)
 - [http://localhost:8080/ListManagerWebServices/ListItemSoapService?wsdl](http://localhost:8080/ListManagerWebServices/ListItemSoapService?ListItemSoapService.wsdl)
-- [SoapUI](https://www.soapui.org/)
+- [SoapUI tool for testing SOAP and RESTful web services](https://www.soapui.org/)
 
 ## RESTful web services
 > REST stands for REpresentational State Transfer.
@@ -113,5 +114,7 @@ Use websphere to run, deploy the List Manager Application project
 
 - [http://localhost:9080/ListManagerWebServices/rest/user/?username=pedro](http://localhost:8080/ListManagerWebServices/rest/user/?username=pedro)
 - [http://localhost:9080/ListManagerWebServices/rest/user/1/listItem](http://localhost:9080/ListManagerWebServices/rest/user/1/listItem)
+- [Poster for firefox browser](https://addons.mozilla.org/en-us/firefox/addon/poster/)
+- [Postman extension for Chrome]()
 
 ## [SOAP vs Web Services ](https://www.javatpoint.com/soap-vs-rest-web-services)
