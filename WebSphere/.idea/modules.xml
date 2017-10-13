@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LisManagerWeb/LisManagerWeb.iml" filepath="$PROJECT_DIR$/LisManagerWeb/LisManagerWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListManagerDataAcess/ListManagerDataAcess.iml" filepath="$PROJECT_DIR$/ListManagerDataAcess/ListManagerDataAcess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListManagerDataAcessTests/ListManagerDataAcessTests.iml" filepath="$PROJECT_DIR$/ListManagerDataAcessTests/ListManagerDataAcessTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListManagerWebServices/ListManagerWebServices.iml" filepath="$PROJECT_DIR$/ListManagerWebServices/ListManagerWebServices.iml" />
+    </modules>
+  </component>
+</project>
