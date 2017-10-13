@@ -4,7 +4,7 @@
 - [QUICK START](https://reactjs.org/docs/installation.html)
 - [Top 5 Tutorials for Getting Started with React](http://andrewhfarmer.com/getting-started-tutorials/)
 - [JSX](https://reactjs.org/docs/introducing-jsx.html)
-- TypeScript:
+- [TypeScript](http://www.typescriptlang.org/):
 > JavaScript that scales
 
 > is a superset of ECMAScript 6 (ES6), and is backwards compatible with ECMAScript 5 (i.e.: JavaScript). 
