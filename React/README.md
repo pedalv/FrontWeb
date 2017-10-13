@@ -6,6 +6,7 @@
 - [JSX](https://reactjs.org/docs/introducing-jsx.html)
 - TypeScript:
 > JavaScript that scales
+
 > is a superset of ECMAScript 6 (ES6), and is backwards compatible with ECMAScript 5 (i.e.: JavaScript). 
 - [ECMAScript 201*](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015)
 - [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
