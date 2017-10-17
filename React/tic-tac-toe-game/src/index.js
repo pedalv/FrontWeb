@@ -136,21 +136,6 @@ class Game extends React.Component {
   }
 }
 
-class ShoppingList extends React.Component {
-  render() {
-    return (
-      <div className="shopping-list">
-        <h1>Shopping List for {this.props.name} {this.props.name2}</h1>
-        <ul>
-          <li>Instagram</li>
-          <li>WhatsApp</li>
-          <li>Oculus</li>
-        </ul>
-      </div>
-    );
-  }
-}
-
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
@@ -179,9 +164,3 @@ ReactDOM.render(
   <Game />,
   document.getElementById('root')
 );
-
-ReactDOM.render(
-  <ShoppingList name="Pedro" name2="Alves" />,
-  document.getElementById('root2')
-);
-
