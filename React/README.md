@@ -16,6 +16,7 @@
 - [ES6: let the new feature](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 - [ES6: const statements the new feature](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 - Static Typing, Generics, Lambdas, Iterators, For/Of loops, Python-style generators, Reflection , Type annotations and compile-time type checking, Type inference, Type erasure, Interfaces, Enumerated type, Mixin, Namespaces, Tuple, Await, Modules, Optional parameters and default parameters
+- [React native](https://facebook.github.io/react-native/)
 
 # Tips og Triks
 - React is a JavaScript library for building user interfaces (V)
@@ -56,5 +57,12 @@ npm start
 - A package manager, such as Yarn or npm. It lets you take advantage of a vast ecosystem of third-party packages, and easily install or update them.
 - A bundler, such as webpack or Browserify. It lets you write modular code and bundle it together into small packages to optimize load time.
 - A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.
+- Note: recommend setting up a production build process to ensure you’re using the fast version of React in production.
+
+```bash
+npm init
+npm install --save react react-dom
+```
+
 
 # [An interactive tic-tac-toe game](https://codepen.io/gaearon/pen/gWWZgR?editors=0010) demo
