@@ -11,6 +11,7 @@ import ReactDOM from 'react-dom';
     return <h1>Please sign up.</h1>;
   }
 
+  /*
   function UserLoginStatus(isLoggedIn) {
     return (
       <div>
@@ -18,6 +19,7 @@ import ReactDOM from 'react-dom';
       </div>
     );
   }
+  */
 
   function Greeting(props) {
     const isLoggedIn = props.isLoggedIn;
@@ -98,10 +100,11 @@ import ReactDOM from 'react-dom';
       );
   
       return (
-        <div className="separator-bottom">
+        <div>
           <Greeting isLoggedIn={isLoggedIn} />
           {button}
           {buttonconditionaloparation}
+          <hr />
         </div>
 
       );
@@ -114,13 +117,14 @@ import ReactDOM from 'react-dom';
   function Mailbox(props) {
     const unreadMessages = props.unreadMessages;
     return (
-      <div className="separator-bottom">
+      <div>
         <h1>Hello!</h1>
         {unreadMessages.length > 0 &&
           <h2>
             You have {unreadMessages.length} unread messages.
           </h2>
         }
+        <hr />
       </div>
     );
   }
@@ -166,11 +170,12 @@ import ReactDOM from 'react-dom';
   
     render() {
       return (
-        <div className="separator-bottom">
+        <div>
           <WarningBanner warn={this.state.showWarning} />
           <button onClick={this.handleToggleClick}>
             {this.state.showWarning ? 'Hide' : 'Show'}
           </button>
+          <hr />
         </div>
       );
     }

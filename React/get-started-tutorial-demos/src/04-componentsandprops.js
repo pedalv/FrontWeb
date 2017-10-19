@@ -62,13 +62,14 @@ function formatDate(date) {
 class ShoppingList extends React.Component {
     render() {
       return (
-        <div className="shopping-list separator-bottom">
+        <div>
           <h1>Shopping List for {this.props.firstname} {this.props.lastname}</h1>
           <ul>
             <li>Instagram</li>
             <li>WhatsApp</li>
             <li>Oculus</li>
           </ul>
+          <hr />
         </div>
       );
     }

@@ -99,12 +99,13 @@ Passing Arguments to Event Handlers
   
     render() {
       return (
-          <div className="separator-bottom">
+          <div>
               <button onClick={this.handleClick}>
                 {this.state.isToggleOn ? 'ON' : 'OFF'}
               </button>
               <LoggingButton1 />
               <LoggingButton2 />
+              <hr />
           </div>
       );
     }
