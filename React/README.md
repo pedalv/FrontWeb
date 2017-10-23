@@ -18,6 +18,7 @@
 - Static Typing, Generics, Lambdas, Iterators, For/Of loops, Python-style generators, Reflection , Type annotations and compile-time type checking, Type inference, Type erasure, Interfaces, Enumerated type, Mixin, Namespaces, Tuple, Await, Modules, Optional parameters and default parameters
 - [React native](https://facebook.github.io/react-native/)
 
+
 # Tips og Triks
 - React is a JavaScript library for building user interfaces (V)
 - AngularJs version 1 and Anguler version 2+ is use to create single pages (MV)
@@ -30,7 +31,17 @@
 - Use on* names for the attributes and handle* for the handler methods.
 - Most of the time, you can use React.PureComponent instead of writing your own shouldComponentUpdate. 
 - [Optimizing Performance (React.PureComponent)](https://reactjs.org/docs/optimizing-performance.html#examples)
+- [Controlled and uncontrolled form inputs in React don't have to be complicated](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
+- [Redux](https://github.com/reactjs/redux)
+- [How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
 
+| Element | Value property | Change  callback | New value in the callback |
+| ------------------------- | ------------------------- | ------------------------- | ------------------------- |
+| <input type="text" /> | value="string" | onChange | event.target.value |
+| <input type="checkbox" /> | checked={boolean} | onChange | event.target.checked |
+| <input type="radio" /> | checked={boolean} | onChange | event.target.checked |
+| <textarea /> | value="string" | onChange | event.target.value |
+| <select /> | value="option value" | onChange | event.target.value |
 
 # React demo
 - Open 'React/single-file-example.html' file on a browser.
@@ -50,6 +61,40 @@ npm start
 ## Commands
 - npm start: Starts the development server.
 - npm run build: Bundles the app into static files for production.
+> This will create a production build of your app in the build/ folder of your project.
+
+> Remember that this is only necessary before deploying to production. 
+
+> For normal development, use npm start.
+
+> For the most efficient Brunch production build, install the uglify-js-brunch plugin: npm install --save-dev uglify-js-brunch
+
+> then, to create a production build, add the -p flag to the build command: brunch build -p
+
+> npm install --save-dev envify uglify-js uglifyify 
+
+```bash
+browserify ./index.js \
+  -g [ envify --NODE_ENV production ] \
+  -g uglifyify \
+  | uglifyjs --compress --mangle > ./bundle.js
+```
+> [Creating a React app with Rollup](https://gist.github.com/Rich-Harris/cb14f4bc0670c47d00d191565be36bf0): npm install --save-dev rollup-plugin-commonjs rollup-plugin-replace rollup-plugin-uglify 
+
+> [webpack](https://webpack.js.org/guides/production/)
+```bash
+new webpack.DefinePlugin({
+  'process.env': {
+    NODE_ENV: JSON.stringify('production')
+  }
+}),
+new webpack.optimize.UglifyJsPlugin()
+```
+> Profiling Components with the Chrome Performance Tab: Load your app with ?react_perf in the query string
+
+> If you know that in some situations your component doesn’t need to update, you can return false from shouldComponentUpdate instead, to skip the whole rendering process, including calling render() on this component and below.
+
+> other way for shouldComponentUpdate it is extends React.PureComponent. Atention for objects becaause the ref is equal but the content is different values 
 - npm test: Starts the test runner.
 - npm run eject: Removes this tool and copies build dependencies, configuration files and scripts into the app directory. If you do this, you can’t go back!
 
