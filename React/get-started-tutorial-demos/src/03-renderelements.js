@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
  function tick() {
   const element = (
     <div className="separator-bottom">
-      <h1>Hello!</h1>
+      <h1>Hellooooooooooooooo!</h1>
       <h2>It is {new Date().toLocaleTimeString()}.</h2>
     </div>
   );
@@ -16,6 +16,8 @@ import ReactDOM from 'react-dom';
   );
 }
 
+// it’s important to cancel your interval when you don’t need it anymore to save memory.
+//  It is possible stop time when extends from React.Component as show in 05-stateandlifecycle.js
 setInterval(tick, 1000);
 
 
@@ -44,4 +46,3 @@ function App() {
 );
 
  //= root3
-  
