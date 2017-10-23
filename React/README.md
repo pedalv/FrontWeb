@@ -36,7 +36,7 @@
 - [How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
 
 | Element | Value property | Change  callback | New value in the callback |
-| ------------------------- | ------------------------- | ------------------------- | ------------------------- |
+| --------------- | --------------- | --------------- | --------------- |
 | <input type="text" /> | value="string" | onChange | event.target.value |
 | <input type="checkbox" /> | checked={boolean} | onChange | event.target.checked |
 | <input type="radio" /> | checked={boolean} | onChange | event.target.checked |
