@@ -104,13 +104,13 @@ class ProductCategoryRow extends React.Component {
           <input
             type="text"
             placeholder="Search..."
-            value={this.props.filterText}
+            value={filterText}
             onChange={this.handleFilterTextChange}
             />
           <p>
             <input
               type="checkbox"
-              checked={this.props.inStockOnly}
+              checked={inStockOnly}
               onChange={this.handleInStockChange}
             />
             {' '}

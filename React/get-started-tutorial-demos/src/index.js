@@ -12,3 +12,7 @@ import './09-form.js'
 import './10-liftingstateup.js'
 import './11-compositionvsinheritance.js'
 import './12-thinkinginreact.js'
+import './13-portals.js'
+import './14-errorboundaries.js'
+
+

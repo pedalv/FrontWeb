@@ -34,6 +34,8 @@
 - [Controlled and uncontrolled form inputs in React don't have to be complicated](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
 - [Redux](https://github.com/reactjs/redux)
 - [How to safely use React context](https://medium.com/@mweststrate/how-to-safely-use-react-context-b7e343eff076)
+- [Testing React Apps](http://facebook.github.io/jest/docs/en/tutorial-react.html#content)
+- [Enzyme](http://airbnb.io/enzyme/)
 
 | Element | Value property | Change  callback | New value in the callback |
 | --------------- | --------------- | --------------- | --------------- |

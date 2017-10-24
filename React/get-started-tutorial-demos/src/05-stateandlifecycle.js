@@ -127,3 +127,55 @@ function App() {
     <App />,
     document.getElementById('root6')
 );  
+
+
+/*
+Mounting
+- These methods are called when an instance of 
+a component is being created and 
+inserted into the DOM:
+1. constructor()
+2. componentWillMount()
+3. render()
+4. componentDidMount()
+
+Updating
+- An update can be caused by changes to props 
+or state. 
+- These methods are called when a component 
+is being re-rendered:
+1. componentWillReceiveProps()
+2. shouldComponentUpdate()
+3. componentWillUpdate()
+4. render()
+5. componentDidUpdate()
+
+Unmounting
+- This method is called when a component 
+is being removed from the DOM:
+1. componentWillUnmount()
+
+Error Handling
+- This method is called when there 
+is an error during rendering, 
+in a lifecycle method, or 
+in the constructor of any child component.
+1. componentDidCatch()
+
+Other APIs
+- Each component also provides some other APIs:
+1. setState()
+2. forceUpdate()
+
+Class Properties
+1. defaultProps
+2. displayName
+
+Instance Properties
+1. props
+2. state
+
+
+
+
+*/
