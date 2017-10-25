@@ -50,3 +50,7 @@ ReactDOM.render(
     <Hello />,
     document.getElementById('root')
     );
+
+
+
+    //$ node_modules/typescript/bin/tsc --target es6 --jsx react 01-helloworld.1.tsx
