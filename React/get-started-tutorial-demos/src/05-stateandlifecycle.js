@@ -135,16 +135,16 @@ Mounting
 a component is being created and 
 inserted into the DOM:
 1. constructor()
-2. componentWillMount()
+2. componentWillMount() — Fired before the component will mount
 3. render()
-4. componentDidMount()
+4. componentDidMount() — Fired after the component mounted
 
 Updating
 - An update can be caused by changes to props 
 or state. 
 - These methods are called when a component 
 is being re-rendered:
-1. componentWillReceiveProps()
+1. componentWillReceiveProps() — Fired whenever there is a change to props
 2. shouldComponentUpdate()
 3. componentWillUpdate()
 4. render()
@@ -153,7 +153,7 @@ is being re-rendered:
 Unmounting
 - This method is called when a component 
 is being removed from the DOM:
-1. componentWillUnmount()
+1. componentWillUnmount() — Fired before the component will unmount
 
 Error Handling
 - This method is called when there 

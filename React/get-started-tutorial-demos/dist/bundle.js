@@ -60,49 +60,64 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
-
-module.exports = React;
-
-/***/ }),
-/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-var ReactDOM = __webpack_require__(2);
-var Hello_1 = __webpack_require__(3);
-ReactDOM.render(React.createElement(Hello_1.Hello, { compiler: "TypeScript", framework: "React" }), document.getElementById("example"));
+/*
+import * as React from "react";
+import * as ReactDOM from "react-dom";
 
+import { Hello } from "./Hello";
+
+ReactDOM.render(
+    <Hello compiler="TypeScript" framework="React" />,
+    document.getElementById("example")
+);
+*/
+Object.defineProperty(exports, "__esModule", { value: true });
+const react_1 = __webpack_require__(1);
+const react_dom_1 = __webpack_require__(2);
+//= root
+class Hello extends react_1.default.Component {
+    render() {
+        const element1 = react_1.default.createElement('h1', { className: 'greeting' }, 'Hello, world!');
+        /*
+        // Note: this structure is simplified
+        const element2 = {
+            type: 'h1',
+            props: {
+            className: 'greeting',
+            children: 'Hello, world'
+            }
+        };
+        */
+        return (react_1.default.createElement("div", { className: "separator-bottom" },
+            react_1.default.createElement("h1", null, "Hello :), world!"),
+            element1));
+    }
+}
+// ========================================
+react_dom_1.default.render(react_1.default.createElement(Hello, null), document.getElementById('root'));
+//$ node_modules/typescript/bin/tsc --target es6 --jsx react 01-helloworld.1.tsx
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = React;
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports) {
 
 module.exports = ReactDOM;
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var React = __webpack_require__(0);
-exports.Hello = function (props) { return React.createElement("h1", null,
-    "Hello from ",
-    props.compiler,
-    " and ",
-    props.framework,
-    "!"); };
-
 
 /***/ })
 /******/ ]);
