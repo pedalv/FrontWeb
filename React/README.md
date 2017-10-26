@@ -46,9 +46,6 @@
 | <textarea /> | value="string" | onChange | event.target.value |
 | <select /> | value="option value" | onChange | event.target.value |
 
-# React demo
-- Open 'React/single-file-example.html' file on a browser.
-
 # [Installation](https://reactjs.org/docs/installation.html)
 - [Creating a new application](https://github.com/facebookincubator/create-react-app#create-react-app-)
 - [Table of contents](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#table-of-contents)
@@ -112,5 +109,10 @@ npm init
 npm install --save react react-dom
 ```
 
-
-# [An interactive tic-tac-toe game](https://codepen.io/gaearon/pen/gWWZgR?editors=0010) demo
+# React demo
+- Open 'React/single-file-example.html' file on a browser.
+- [An interactive tic-tac-toe game](https://codepen.io/gaearon/pen/gWWZgR?editors=0010) demo
+- [local tic-tac-toe-game](localhost:3000)
+- [local default my-app](localhost:3000)
+- [get-started-tutorial-demos](localhost:3000)
+- [voting-server](localhost:3000)
