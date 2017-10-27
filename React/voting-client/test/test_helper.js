@@ -2,6 +2,10 @@ import jsdom from 'jsdom';
 import chai from 'chai';
 import chaiImmutable from 'chai-immutable';
 
+global.requestAnimationFrme = function(callback) {
+  setTimeout(callback, 0);
+};
+
 // https://github.com/airbnb/enzyme/issues/942
 const {JSDOM} = jsdom;
 const {document} = (new JSDOM('<!doctype html><html><body></body></html>')).window;
