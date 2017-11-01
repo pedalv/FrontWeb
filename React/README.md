@@ -109,8 +109,15 @@ npm init
 npm install --save react react-dom
 ```
 
-# React demo
+# React demos
 - Open 'React/single-file-example.html' file on a browser.
+```bash
+npm install -g create-react-app
+create-react-app my-app
+
+cd my-app
+npm start
+```
 - [An interactive tic-tac-toe game](https://codepen.io/gaearon/pen/gWWZgR?editors=0010) demo
 - [local tic-tac-toe-game](localhost:3000)
 - [local default my-app](localhost:3000)

@@ -6,8 +6,12 @@ Front-end projects to build competence.
 git clone https://github.com/pedalv/FrontApp.git
 ```
 
+# Project 6: Angular
+- Project for start with [Angular](https://angular.io/)
+- React project is located on [https://github.com/pedalv/FrontApp/tree/master/Angular](https://github.com/pedalv/FrontApp/tree/master/Angular)
+
 # Project 6: React
-- Project for start with [React](http://www-03.ibm.com/software/products/en/appserv-was).
+- Project for start with [React](https://reactjs.org/).
 - React project is located on [https://github.com/pedalv/FrontApp/tree/master/React](https://github.com/pedalv/FrontApp/tree/master/React)
 
 # Project 5: WebSphere
