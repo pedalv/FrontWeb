@@ -80,7 +80,7 @@ add { "NAME": 'src/environments/environment.NAME.ts' } to the apps[0].environmen
 use them via the --env=NAME flag on the build/serve commands.
 ```
 
-# Tips og Triks
+# Tips and Triks
 - [TypeScript](http://www.typescriptlang.org/):
 > JavaScript that scales
 
@@ -120,9 +120,7 @@ ng serve --open --host 0.0.0.0 --port 4201
 npm install
 ng serve --open --host 0.0.0.0 --port 4202
 ```
-
-
-
+- [Navigate to http://localhost:4202/ - Angular Tour of Heroes](http://localhost:4202)
 
 # polyfills.ts
 - Different browsers have different levels of support of the web standards. 

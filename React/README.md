@@ -18,8 +18,7 @@
 - Static Typing, Generics, Lambdas, Iterators, For/Of loops, Python-style generators, Reflection , Type annotations and compile-time type checking, Type inference, Type erasure, Interfaces, Enumerated type, Mixin, Namespaces, Tuple, Await, Modules, Optional parameters and default parameters
 - [React native](https://facebook.github.io/react-native/)
 
-
-# Tips og Triks
+# Tips and Triks
 - React is a JavaScript library for building user interfaces (V)
 - AngularJs version 1 and Anguler version 2+ is use to create single pages (MV)
 - React Native, which enables native Android, iOS, and UWP development with React

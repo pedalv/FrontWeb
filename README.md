@@ -1,13 +1,8 @@
 # FrontApp
 Front-end projects to build competence.
 
-# Fetch all FrontApp projects
-```bash
-git clone https://github.com/pedalv/FrontApp.git
-```
-
 # Project 6: Angular
-- Project for start with [Angular](https://angular.io/)
+- Project for start with [Angular](https://angular.io/).
 - React project is located on [https://github.com/pedalv/FrontApp/tree/master/Angular](https://github.com/pedalv/FrontApp/tree/master/Angular)
 
 # Project 6: React
@@ -33,3 +28,8 @@ git clone https://github.com/pedalv/FrontApp.git
 # Project 1: IonicCache
 - Project for caching http request data.
 - IonicCache project is located on [https://github.com/pedalv/FrontApp/tree/master/IonicCache](https://github.com/pedalv/FrontApp/tree/master/IonicCache)
+
+# Fetch all FrontApp projects
+```bash
+git clone https://github.com/pedalv/FrontApp.git
+```
