@@ -96,6 +96,11 @@ use them via the --env=NAME flag on the build/serve commands.
 - stats-json: --stats-json,  generates a stats.json file which can be analyzed using tools such as: webpack-bundle-analyzer or [https://webpack.github.io/analyse](https://webpack.github.io/analyse).
 - [Edit config](http://editorconfig.org/)
 - [Edit config on GitHub](https://github.com/editorconfig/editorconfig/wiki/Projects-Using-EditorConfig)
+- [How to create library for Angular(2+) and publish to npm from scratch](https://hackernoon.com/how-to-create-library-in-angular-2-and-publish-to-npm-from-scratch-f2b1272d6266)
+- [A 10 minute primer to JavaScript modules, module formats, module loaders and module bundlers](https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module-formats-module-loaders-and-module-bundlers/)
+- [Angular Modules vs ES6 Modules](https://juristr.com/blog/2017/03/angular-modules-vs-es6-modules/)
+- [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
+- [Modules | Node.js Documentation](https://nodejs.org/api/modules.html#modules_all_together)
 
 # On-line demos
 - [Angular Example - Hello World](https://embed.plnkr.co/?show=preview&show=app%2Fapp.component.ts)
@@ -121,6 +126,9 @@ npm install
 ng serve --open --host 0.0.0.0 --port 4202
 ```
 - [Navigate to http://localhost:4202/ - Angular Tour of Heroes](http://localhost:4202)
+
+- [How publish my-emptytext library for use as a module](https://github.com/pedalv/FrontApp/tree/master/Angular/my-emptytest)
+
 
 # polyfills.ts
 - Different browsers have different levels of support of the web standards. 
