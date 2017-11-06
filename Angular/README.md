@@ -113,21 +113,31 @@ ng new my-app -> Create a new project
 cd my-app
 ng serve --open 
 or
-ng serve --open --host 0.0.0.0 --port 4201
+ng serve --open --host 0.0.0.0 --port 4200
 ```
 - [Navigate to http://localhost:4200/ - QuickStart: Welcome to app!](http://localhost:4200/)
 ```bash
+cd architecture
 npm install
 ng serve --open --host 0.0.0.0 --port 4201
 ```
 -[Navigate to http://localhost:4201/ - Architecture of Angular](http://localhost:4201) 
 ```bash
+cd angular-tour-of-heroes
 npm install
+npm start eller 
 ng serve --open --host 0.0.0.0 --port 4202
 ```
 - [Navigate to http://localhost:4202/ - Angular Tour of Heroes](http://localhost:4202)
+```bash
+cd toh-pt6
+npm install
+ng serve --open --host 0.0.0.0 --port 4203
+```
+- [Navigate to http://localhost:4203/ - Angular Tour of Heroes (toh-pt6 version)](http://localhost:4202)
 
 - [How publish my-emptytext library for use as a module](https://github.com/pedalv/FrontApp/tree/master/Angular/my-emptytest)
+
 
 
 # polyfills.ts
