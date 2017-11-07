@@ -101,6 +101,8 @@ use them via the --env=NAME flag on the build/serve commands.
 - [Angular Modules vs ES6 Modules](https://juristr.com/blog/2017/03/angular-modules-vs-es6-modules/)
 - [JavaScript Modules: A Beginner’s Guide](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
 - [Modules | Node.js Documentation](https://nodejs.org/api/modules.html#modules_all_together)
+- [16. Modules](http://exploringjs.com/es6/ch_modules.html)
+
 
 # On-line demos
 - [Angular Example - Hello World](https://embed.plnkr.co/?show=preview&show=app%2Fapp.component.ts)
