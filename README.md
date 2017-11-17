@@ -17,9 +17,9 @@ Front-end projects to build competence.
 - Project for start with [JavaServe Faces](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html).
 - JSF project is located on [https://github.com/pedalv/FrontApp/tree/master/JSF](https://github.com/pedalv/FrontApp/tree/master/JSF)
 
-# Project 3: Bluemix
-- Project for start with [IBM Bluemix DevOps Services](https://hub.jazz.net/docs).
-- Bluemix project is located on [https://github.com/pedalv/FrontApp/tree/master/Bluemix](https://github.com/pedalv/FrontApp/tree/master/Bluemix)
+# Project 3: IBM
+- [IBM - Norge](https://www.ibm.com/no-no/)
+- [](https://github.com/pedalv/FrontApp/tree/master/IBM)
 
 # Project 2: Webpack2
 - Project for start with [Webpack](https://webpack.js.org/).
