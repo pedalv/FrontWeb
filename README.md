@@ -19,7 +19,7 @@ Front-end projects to build competence.
 
 # Project 3: IBM
 - [IBM - Norge](https://www.ibm.com/no-no/)
-- [](https://github.com/pedalv/FrontApp/tree/master/IBM)
+- IBM products and services information is located on [https://github.com/pedalv/FrontApp/tree/master/IBM](https://github.com/pedalv/FrontApp/tree/master/IBM)
 
 # Project 2: Webpack2
 - Project for start with [Webpack](https://webpack.js.org/).
