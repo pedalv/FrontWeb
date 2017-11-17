@@ -1,0 +1,12 @@
+# [Watson Analytics](https://www.ibm.com/watson-analytics)
+- [Overview](https://www.ibm.com/us-en/marketplace/watson-analytics) 
+- [Pricing](https://www.ibm.com/watson-analytics/pricing)
+- [Purchase](https://www.ibm.com/us-en/marketplace/watson-analytics/purchase)
+- [IBM Watson Analytics for Social Media](https://www.ibm.com/us-en/marketplace/social-media-data-analysis/details)
+- [Cloud service terms - SDs - Service Description](https://www-03.ibm.com/software/sla/sladb.nsf/sla/sd-6796-08?)
+- [Watson Analytics and your industry](https://www.ibm.com/watson-analytics/industry)
+- [Watson](https://www.ibm.com/watson/)
+- [Watson Explorer](https://www.ibm.com/us-en/marketplace/content-analytics)
+- [Software trials](https://www-01.ibm.com/software/info/trials/)
+- [IBM Watson Analytics - Dashbord](https://watson.analytics.ibmcloud.com/home/data)
+
