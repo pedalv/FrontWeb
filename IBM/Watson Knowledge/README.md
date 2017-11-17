@@ -1,4 +1,7 @@
 # [IBM Watson Knowledge Studio](https://www.ibm.com/us-en/marketplace/supervised-machine-learning)
-- [IBM Watson Knowledge Studio - SCX Dashboard](https://gateway.watsonplatform.net/knowledge-studio/ui/dashboard/?sbsSubscriptionID=502482843) 
+- [IBM Watson Knowledge Studio - SCX Dashboard](https://gateway.watsonplatform.net/knowledge-studio/ui/dashboard/) 
 - [Watson Knowledge Studio Tutorial](https://www.google.no/search?q=watson+knowledge+studio+tutorial&source=lnms&tbm=vid&sa=X&ved=0ahUKEwi0_8_3icPXAhWkA5oKHdf7Cp8Q_AUICygC&biw=1536&bih=710)
 - [Pricing](https://www.ibm.com/us-en/marketplace/supervised-machine-learning/purchase#product-header-top)
+- [Terms and Conditions - TOUs (PA) - IBM Watson Knowledge Studio (12-2016)](https://www-03.ibm.com/software/sla/sladb.nsf/sla/tou-0037-03)
+- [Learn About](https://www.ibm.com/us-en/marketplace/supervised-machine-learning/resources#product-header-top)
+- [Get Support](https://u936899.ct.sendgrid.net/wf/click?upn=4ePDmkPngVQQ-2FuOJ-2F1PHWrDjf4Jbx2a04sGV99I7JBGnyjK3R12RLa0oJ39NeCs0ebSTweZaDHi09ocmmCFs13bxbY-2FhF5uULS4jgG2Fm0k-3D_K0eZYR5WqrwJEZ0oVSjXKcoaWjlDZCbtgqk1QLKxQZbmv-2FY7qgjaWKM3ebpcGO305UHFMQGlTB7ml6ifaGOLo39QdlOp3FFJcW3AHYpcxSMMS-2B-2Bd85LqmkKD8URJQw-2FTsSWCj6dzwzzgm36a-2FmqEhrL4wVY2F1puII6ZyPuSun3OsUWxrW8McJAibAGLWDazfpp8h97-2BUFYuHdfht60xRxwWxD6K5POk8AILd-2FHRIAE-3D)

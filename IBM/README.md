@@ -1,5 +1,6 @@
 # IBM
-Products and services.
+- Products and services
+- [My IBM](https://myibm.ibm.com/dashboard/?lnk=mmi_nono)
 
 # Project 3: IBM Watson Knowledge Studio
 - [IBM Watson Knowledge Studio](https://www.ibm.com/us-en/marketplace/supervised-machine-learning)
