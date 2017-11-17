@@ -9,15 +9,14 @@
 - [IBM Watson Knowledge Studio - SCX Dashboard](https://gateway.watsonplatform.net/knowledge-studio/ui/dashboard/) 
 
 # What type of model do you want to create?
-- Machine-learning model: 
+- Machine-learning model (Default Tokenizer): 
 > Uses statistical approach to finding entities and relationships in documents. 
 
 > This type of model can adapt as the amount of data grows.
 
-- Rule-based model: 
+- Rule-based model (Dictionary-based Tokenizer): 
 > Uses a declarative approach to finding entities in documents. 
 
 > This type of model is more predictable, and is easier to comprehend and maintain. 
 
 > However, it does not learn from new data. It can only find patterns it has been taught to look for.
-
