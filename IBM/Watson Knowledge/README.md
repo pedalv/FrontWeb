@@ -23,3 +23,7 @@
 > This type of model is more predictable, and is easier to comprehend and maintain. 
 
 > However, it does not learn from new data. It can only find patterns it has been taught to look for.
+
+# Config
+- [Creating a project- All annotator component types](https://console.bluemix.net/docs/services/knowledge-studio/create-project.html#create-project)
+- [Creating dictionaries](https://console.bluemix.net/docs/services/knowledge-studio/dictionaries.html#wks_dictionaries)
