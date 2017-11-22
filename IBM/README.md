@@ -6,7 +6,7 @@
 - [IBM Watson Knowledge Studio](https://www.ibm.com/us-en/marketplace/supervised-machine-learning)
 - More information on [https://github.com/pedalv/FrontApp/tree/master/IBM/Watson%20Knowledge](https://github.com/pedalv/FrontApp/tree/master/IBM/Watson%20Knowledge)
 
-# Project 2: IBM
+# Project 2: IBM Watson Analytics
 - [IBM Watson Analytics](https://www.ibm.com/watson-analytics)
 - More information on [https://github.com/pedalv/FrontApp/tree/master/IBM/Watson%20Analytics](https://github.com/pedalv/FrontApp/tree/master/IBM/Watson%20Analytics)
 
