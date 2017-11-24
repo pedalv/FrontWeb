@@ -42,3 +42,7 @@
 - [IBM Cloud Docs | Natural Language Understanding](https://console.bluemix.net/docs/services/natural-language-understanding/index.html#about)
 - [Watson API Explorer](https://watson-api-explorer.mybluemix.net/)
 - [Watson API Explorer | Natural Language Understanding](https://watson-api-explorer.mybluemix.net/apis/natural-language-understanding-v1)
+- [IBM Operational Decision Manager](http://www-03.ibm.com/software/products/en/odm)
+- [Taking operational decision management to the next level](http://www-01.ibm.com/software/decision-management/operational-decision-management/odm-act-in-context-with-data/)
+- [WebSphere Application Server](http://www-03.ibm.com/software/products/en/appserv-was)
+- [What is a BRMS?](https://www-01.ibm.com/software/sg/websphere/products/business-rule-management/whatis/)
