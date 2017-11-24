@@ -1,6 +1,7 @@
 # IBM
 - Products and services
 - [My IBM](https://myibm.ibm.com/dashboard/?lnk=mmi_nono)
+- [IBM Watson: The Science Behind an Answer](https://www.youtube.com/watch?v=DywO4zksfXw)
 
 # Project 3: IBM Watson Knowledge Studio
 - [IBM Watson Knowledge Studio](https://www.ibm.com/us-en/marketplace/supervised-machine-learning)
