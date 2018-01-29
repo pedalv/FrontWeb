@@ -5,13 +5,9 @@ Front-end projects to build competence.
 - Project for start with [Angular](https://angular.io/).
 - React project is located on [https://github.com/pedalv/FrontApp/tree/master/Angular](https://github.com/pedalv/FrontApp/tree/master/Angular)
 
-# Project 6: React
+# Project 5: React
 - Project for start with [React](https://reactjs.org/).
 - React project is located on [https://github.com/pedalv/FrontApp/tree/master/React](https://github.com/pedalv/FrontApp/tree/master/React)
-
-# Project 5: WebSphere
-- Project for start with [WebSphere application server for developers](http://www-03.ibm.com/software/products/en/appserv-was).
-- WebSphere project is located on [https://github.com/pedalv/FrontApp/tree/master/WebSphere](https://github.com/pedalv/FrontApp/tree/master/WebSphere)
 
 # Project 4: JSF
 - Project for start with [JavaServe Faces](http://www.oracle.com/technetwork/java/javaee/javaserverfaces-139869.html).
@@ -21,9 +17,9 @@ Front-end projects to build competence.
 - [IBM - Norge](https://www.ibm.com/no-no/)
 - IBM products and services information is located on [https://github.com/pedalv/FrontApp/tree/master/IBM](https://github.com/pedalv/FrontApp/tree/master/IBM)
 
-# Project 2: Webpack2
+# Project 2: Webpack
 - Project for start with [Webpack](https://webpack.js.org/).
-- Webpack2 project is located on [https://github.com/pedalv/FrontApp/tree/master/Webpack2](https://github.com/pedalv/FrontApp/tree/master/Webpack2)
+- Webpack project is located on [https://github.com/pedalv/FrontApp/tree/master/Webpack](https://github.com/pedalv/FrontApp/tree/master/Webpack)
 
 # Project 1: IonicCache
 - Project for caching http request data.

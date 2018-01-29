@@ -16,8 +16,8 @@
 - [Authoring Libraries](https://webpack.js.org/guides/author-libraries/)
 - [ECMAScript 6 — New Features: Overview & Comparison](http://es6-features.org/#Constants)
 
-# webpack 2 demo
-- Open 'Webpack2/webpack-demo/index.html' file on a browser.
+# webpack demo
+- Open 'Webpack/webpack-demo/index.html' file on a browser.
 
 ## Install library
 ```bash
@@ -27,7 +27,7 @@ npm install --save lodash
 ```bash
 ./node_modules/.bin/webpack app/index.js dist/bundle.js
 ```
-# webpack 2 demo with a config
+# webpack demo with a config
 ```bash
 ./node_modules/.bin/webpack --config webpack.config.js
 ```

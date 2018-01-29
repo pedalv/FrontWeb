@@ -1,5 +1,5 @@
 # IonicCache
-A easy solution to caching http request data.
+How cache http request data.
 
 ## Location
 IonicCache is located on [https://github.com/pedalv/IonicCache.git](https://github.com/pedalv/IonicCache.git)

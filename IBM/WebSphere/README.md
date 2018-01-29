@@ -29,11 +29,15 @@
 - Install plugin to WebSphere in eclipse marketplace
 
 # List Manager Application Project
-ListManagerWebServices (WAR) - SOAP and RESTful Web Services - Dynamic Web Project
-List ManagerWeb (WAR) - Web UI - Web Applications - Dynamic Web Project
-ListManagerDataAccess (JAR) - Backend - Utility Project
-ListManage (EAR) - Enterprise Application - Enterprise Application Project
-WebSphere Application Server 
+> ListManagerWebServices (WAR) - SOAP and RESTful Web Services - Dynamic Web Project
+
+> List ManagerWeb (WAR) - Web UI - Web Applications - Dynamic Web Project
+
+> ListManagerDataAccess (JAR) - Backend - Utility Project
+
+> ListManage (EAR) - Enterprise Application - Enterprise Application Project
+
+> WebSphere Application Server 
 
 # Automated Testing Strategies - Use a Database - In memory database
 - [H2](http://www.h2database.com/html/download.html)
