@@ -11,7 +11,6 @@ Some teory is available on [http://sps.rr-research.no/wiki/Caching.ashx](http://
 ```bash
 - Load all libraries
 $ npm install 
-$ bower install
 - Install plugins and platform
 $ ionic state reset 
 - Update front-end
