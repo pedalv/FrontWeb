@@ -9,7 +9,7 @@
 
 # Compare
 - React is a JavaScript library for building user interfaces (V)
-- AngularJs version 1 and Anguler version 2+ is use to create single pages (MV)
+- AngularJs version 1 and Angular version 2+ is use to create single pages (MV)
 
 # [Angular CLI](https://cli.angular.io/)
 - is a command line interface tool that can create a project, add files, and perform a variety of ongoing development tasks such as testing, bundling, and deployment.
