@@ -9,15 +9,9 @@ import { LoggerService } from '../logger.service';
 })
 export class WellcomeComponent implements OnInit {
 
-  constructor(
-    private logger: LoggerService
-  ) { }
 
   ngOnInit() {
   }
 
-  getHeroes() {
-      this.logger.log(`this.logger.log`);
-  }
 
 }
