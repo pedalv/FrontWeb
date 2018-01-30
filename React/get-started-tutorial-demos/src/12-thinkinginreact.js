@@ -160,7 +160,6 @@ class ProductCategoryRow extends React.Component {
             filterText={this.state.filterText}
             inStockOnly={this.state.inStockOnly}
           />
-          <hr />
         </div>
       );
     }
