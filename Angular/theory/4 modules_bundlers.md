@@ -16,8 +16,9 @@
 — they load module files to the browser
 
 > The difference is 
+
 | Module loader | Module bundler |
-| ------------- | ------------- |
+| -------------- | -------------- |
 | works in run time | work in compile time |
 | load each file at a time | will bundle all module files in compile time to single file and browser will has to load only the bundled file |
 
