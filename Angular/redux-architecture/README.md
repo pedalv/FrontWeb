@@ -27,6 +27,7 @@ Project seed app for NGRX application using Angular, NGRX Store, Effects, Router
 - [ngrx/store](https://github.com/ngrx/platform/blob/master/docs/store/README.md)
 - [ngrx/effects](https://github.com/ngrx/platform/blob/master/docs/effects/README.md)
 - [npm](https://www.npmjs.com/)
+- [npm get started](https://docs.npmjs.com/getting-started/updating-local-packages)
 - [Webpack](https://webpack.js.org/)
 
 ## Projects 
@@ -50,3 +51,7 @@ yarn start // or npm run start
 > [Open your browser](http://localhost:3000)
 
 ## My Notes
+- 
+-
+-
+-
