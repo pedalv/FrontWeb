@@ -32,6 +32,17 @@ button.addEventListener(
   false
 );
 
+const unsubscript = store.subscribe(state => 
+{
+  renderTodos(state.todos.data);
+});
+
+destroy.addEventListener(
+  'click',
+  unsubscript,
+  false
+);
+
 todoList.addEventListener(
   'click', 
   function(event) {
@@ -40,3 +51,5 @@ todoList.addEventListener(
       console.log(target);
     }
 });
+
+store.subscribe(state => console.log("STATE:::", state));
