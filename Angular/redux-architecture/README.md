@@ -3,7 +3,7 @@ Project seed app for NGRX application using Angular, NGRX Store, Effects, Router
 
 ![NGRX Architecture](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/NGRX-architecture.PNG)
 
-# Tools and my setup
+## Tools and my setup
 - [Text editor - Visual Studio Code](https://code.visualstudio.com/)
 - [VSCode Plugin - Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 
 - [VSCode Plugin - Angular Language features](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
@@ -21,7 +21,7 @@ Project seed app for NGRX application using Angular, NGRX Store, Effects, Router
 - [nodejs](https://nodejs.org/en/)
 - [Homebrew for MAC](https://brew.sh/)
 
-# Documentation
+## Documentation
 - [The Ultimate Guide To Mastering Angular2](https://ultimateangular.com/)
 - [Angular](https://angular.io/)
 - [ngrx/store](https://github.com/ngrx/platform/blob/master/docs/store/README.md)
@@ -29,7 +29,7 @@ Project seed app for NGRX application using Angular, NGRX Store, Effects, Router
 - [npm](https://www.npmjs.com/)
 - [Webpack](https://webpack.js.org/)
 
-# Projects 
+## Projects 
 - [Redux Store: Seed](https://github.com/UltimateAngular/redux-store)
 ```bash
 npm install -g node-sass
@@ -49,4 +49,4 @@ yarn start // or npm run start
 ```
 > [Open your browser](http://localhost:3000)
 
-# My Notes
+## My Notes
