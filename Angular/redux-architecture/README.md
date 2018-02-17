@@ -1,6 +1,8 @@
 # Redux Architecture
 Project seed app for NGRX application using Angular, NGRX Store, Effects, Router Store.
 
+![NGRX Architecture](https://github.com/pedalv/FrontApp/tree/master/Angular/redux-architecture/NGRX-architecture.png)
+
 # Tools and my setup
 - [Text editor - Visual Studio Code](https://code.visualstudio.com/)
 - [VSCode Plugin - Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) 
@@ -46,3 +48,5 @@ yarn install // or npm install
 yarn start // or npm run start
 ```
 > [Open your browser](http://localhost:3000)
+
+# My Notes
