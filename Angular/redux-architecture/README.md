@@ -51,7 +51,19 @@ yarn start // or npm run start
 > [Open your browser](http://localhost:3000)
 
 ## My Notes
-- 
--
--
--
+- ng: Angular, rx: reactive (store, effects, root, feature reactive packages)
+- pure functions: selectors, reducers, actions (const or classes)
+> root and feature module support with
+- Eager loading (root): all page
+- Lazy loading (feature): certain areas of the page
+- Reactive Angular
+
+![NGRX Architecture](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/ReactiveAngular2.PNG)
+
+| Container | Presentational |
+| --------------- | --------------- |
+| Aware of Store | Not aware of Store |
+| Dispatches Actions | Invokes callbacks via @Output | 
+| Reads data from Store | Read data from @Inputs (immutable) | 
+
+
