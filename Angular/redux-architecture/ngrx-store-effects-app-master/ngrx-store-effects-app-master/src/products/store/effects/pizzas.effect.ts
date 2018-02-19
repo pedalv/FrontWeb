@@ -23,8 +23,7 @@ export class PizzasEffects {
                     .getPizzas()
                     .pipe(
                         map(pizzas => new pizzaActions.LoadPizzasSuccess(pizzas)),
-                        catchError(error => of(new pizzaActions.LoadPizzasFail(error)))
-                )            
+                        catchError(error => of(new pizzaActions.LoadPizzasFail(error)))                )            
             })
         )
 }

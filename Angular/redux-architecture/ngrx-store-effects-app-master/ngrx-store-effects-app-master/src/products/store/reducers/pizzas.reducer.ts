@@ -2,13 +2,13 @@ import * as fromPizzas from '../actions/pizza.action';
 import { Pizza } from '../../models/pizza.model';
 
 export interface PizzaState {
-  data: Pizza[];
+  entities: {[id: number ]: Pizza};
   loaded: boolean;
   loading: boolean;
 }
 
 export const initialState: PizzaState = {
-  data: [ ],
+  entities: {},
   loaded: false,
   loading: false,
 };
@@ -27,13 +27,41 @@ export function reducer(
 
     case fromPizzas.LOAD_PIZZAS_SUCCESS: {
       console.log(action.payload);
-      const data = action.payload;
+      //const data = action.payload;
+      /*
+      we have array of pizza:
+      [ {id: 1}, {id: 2}]
+      we want object of pizza:
+      const pizza: any = {
+
+          1. {
+          id: 1,
+          name: 'Pizza',
+          toopings: []
+        }
+
+      }
+      const id = 1;
+      pizza[id]
+      */
+      
+     const pizzas = action.payload
+     const entities =  pizzas.reduce(
+       (entities : { [id: number] : Pizza }, pizza: Pizza) => {
+         return {
+           ...entities, // merge the entities into the existent state
+           [pizza.id]: pizza
+         };
+       },
+       {
+         ...state.entities
+       });
 
       return {
         ...state,
         loading: false,
         loaded: true,
-        data: data
+        entities: entities
       };
     }
 
@@ -51,4 +79,4 @@ export function reducer(
 
 export const getPizzasLoading = (state: PizzaState) => state.loading;
 export const getPizzasLoaded = (state: PizzaState) => state.loaded;
-export const getPizzas = (state: PizzaState) => state.data;
+export const getPizzasEntities = (state: PizzaState) => state.entities;
