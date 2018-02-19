@@ -65,5 +65,3 @@ yarn start // or npm run start
 | Aware of Store | Not aware of Store |
 | Dispatches Actions | Invokes callbacks via @Output | 
 | Reads data from Store | Read data from @Inputs (immutable) | 
-
-
