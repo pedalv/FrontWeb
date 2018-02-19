@@ -1,11 +1,12 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs/Observable';
+import * as fromStore from '../../store';
 
 import { Pizza } from '../../models/pizza.model';
-import { PizzasService } from '../../services/pizzas.service';
-
 import { Topping } from '../../models/topping.model';
-import { ToppingsService } from '../../services/toppings.service';
+
 
 @Component({
   selector: 'product-item',
@@ -14,7 +15,7 @@ import { ToppingsService } from '../../services/toppings.service';
     <div 
       class="product-item">
       <pizza-form
-        [pizza]="pizza"
+        [pizza]="pizza$ | async"
         [toppings]="toppings"
         (selected)="onSelect($event)"
         (create)="onCreate($event)"
@@ -28,18 +29,24 @@ import { ToppingsService } from '../../services/toppings.service';
   `,
 })
 export class ProductItemComponent implements OnInit {
-  pizza: Pizza;
+  pizza$: Observable<Pizza>;
   visualise: Pizza;
   toppings: Topping[];
 
   constructor(
-    private pizzaService: PizzasService,
-    private toppingsService: ToppingsService,
-    private route: ActivatedRoute,
-    private router: Router
+    private store: Store<fromStore.ProductsState>
+
+    //private pizzaService: PizzasService,
+    //private toppingsService: ToppingsService,
+    //private route: ActivatedRoute,
+    //private router: Router
   ) {}
 
   ngOnInit() {
+    this.pizza$ = this.store.select(fromStore.getSelectedPizza);
+
+
+    /*
     this.pizzaService.getPizzas().subscribe(pizzas => {
       const param = this.route.snapshot.params.id;
       let pizza;
@@ -54,9 +61,13 @@ export class ProductItemComponent implements OnInit {
         this.onSelect(toppings.map(topping => topping.id));
       });
     });
+    */
   }
 
   onSelect(event: number[]) {
+    
+    
+    /*
     let toppings;
     if (this.toppings && this.toppings.length) {
       toppings = event.map(id =>
@@ -66,26 +77,36 @@ export class ProductItemComponent implements OnInit {
       toppings = this.pizza.toppings;
     }
     this.visualise = { ...this.pizza, toppings };
+    */
   }
 
   onCreate(event: Pizza) {
+    
+    /*
     this.pizzaService.createPizza(event).subscribe(pizza => {
       this.router.navigate([`/products/${pizza.id}`]);
     });
+    */
   }
 
   onUpdate(event: Pizza) {
+    
+    /*
     this.pizzaService.updatePizza(event).subscribe(() => {
       this.router.navigate([`/products`]);
     });
+    */
   }
 
   onRemove(event: Pizza) {
     const remove = window.confirm('Are you sure?');
     if (remove) {
+
+      /*
       this.pizzaService.removePizza(event).subscribe(() => {
         this.router.navigate([`/products`]);
       });
+      */
     }
   }
 }
