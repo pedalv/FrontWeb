@@ -82,9 +82,8 @@ export class ProductItemComponent implements OnInit {
   }
 
   onSelect(event: number[]) {
-    console.log('onSelect:::' + event)
-    this.store.dispatch(new VisualiseToppings(event));
-    
+    console.log('onSelect:::' + event);
+    this.store.dispatch(new fromStore.VisualiseToppings(event));
     
     /*
     let toppings;
@@ -100,6 +99,8 @@ export class ProductItemComponent implements OnInit {
   }
 
   onCreate(event: Pizza) {
+    this.store.dispatch(new fromStore.CreatePizza(event));
+    
     
     /*
     this.pizzaService.createPizza(event).subscribe(pizza => {
