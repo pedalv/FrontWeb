@@ -1,5 +1,6 @@
 import * as fromPizzas from '../actions/pizza.action';
 import { Pizza } from '../../models/pizza.model';
+//import { MaptoPizzaEntity } from '../utilities/map.array.object.entity';
 
 export interface PizzaState {
   entities: {[id: number ]: Pizza};
@@ -27,6 +28,7 @@ export function reducer(
 
     case fromPizzas.LOAD_PIZZAS_SUCCESS: {
       console.log(action.payload);
+
       //const data = action.payload;
       /*
       we have array of pizza:
@@ -44,8 +46,9 @@ export function reducer(
       const id = 1;
       pizza[id]
       */
-      
-     const pizzas = action.payload
+     
+     const pizzas = action.payload;
+     //MaptoPizzaEntity(action.payload,state);
      const entities =  pizzas.reduce(
        (entities : { [id: number] : Pizza }, pizza: Pizza) => {
          return {
