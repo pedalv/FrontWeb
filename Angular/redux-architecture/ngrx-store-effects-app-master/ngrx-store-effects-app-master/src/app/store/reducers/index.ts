@@ -5,8 +5,8 @@ import {
 } from '@angular/router';
 
 import { 
-    ActionReducerMap, 
-    createFeatureSelector 
+    createFeatureSelector,
+    ActionReducerMap     
 } from '@ngrx/store'
 
 import * as fromRouter from '@ngrx/router-store';

@@ -1,11 +1,10 @@
 import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 
-import { Pizza } from '../../models/pizza.model';
-//import { PizzasService } from '../../services/pizzas.service';
-
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
 import * as fromStore from '../../store';
+import { Pizza } from '../../models/pizza.model';
+//import { PizzasService } from '../../services/pizzas.service';
 
 @Component({
   selector: 'products',

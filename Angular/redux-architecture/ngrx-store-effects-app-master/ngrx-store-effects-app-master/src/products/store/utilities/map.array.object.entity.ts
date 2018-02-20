@@ -9,6 +9,7 @@ export function MaptoPizzaEntity(
     pizzas: Pizza[],
     state: PizzaState,    
 ) {
+    
     const entities =  pizzas.reduce(
         (entities : { [id: number] : Pizza }, pizza: Pizza) => {
           return {
