@@ -5,7 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 import { StoreModule } from '@ngrx/store';
-import { EffectsModule} from '@ngrx/effects';
+import { EffectsModule } from '@ngrx/effects';
 
 import { reducers, effects } from './store';
 
@@ -31,7 +31,7 @@ export const ROUTES: Routes = [
   {
     path: ':pizzaId',
     component: fromContainers.ProductItemComponent,
-  },  
+  },
 ];
 
 @NgModule({
@@ -41,7 +41,7 @@ export const ROUTES: Routes = [
     HttpClientModule,
     RouterModule.forChild(ROUTES),
     StoreModule.forFeature('products', reducers), //layz loaded
-    EffectsModule.forFeature(effects)
+    EffectsModule.forFeature(effects),
   ],
   providers: [...fromServices.services],
   declarations: [...fromContainers.containers, ...fromComponents.components],

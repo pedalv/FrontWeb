@@ -17,7 +17,7 @@ this is the data structured
 */
 
 export const getToppingsState = createSelector(
-    fromFeature.getproductState,
+    fromFeature.getProductsState,
     (state: fromFeature.ProductsState) => state.toppings
 );
 

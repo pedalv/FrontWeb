@@ -8,7 +8,7 @@ import * as fromToppings from './toppings.selectors';
 import { Pizza } from '../../models/pizza.model';
 
 export const getPizzaState =  createSelector(
-    fromFeature.getproductState,
+    fromFeature.getProductsState,
     (state: fromFeature.ProductsState) => state.pizzas
 );
 
@@ -21,13 +21,7 @@ export const getSelectedPizza = createSelector(
     getPizzasEntities,
     fromRoot.getRouterState,
     (entities, router): Pizza => {
-        console.log("problems");
-        //console.log(router);
-        //console.log(router.state);
-        //console.log(router.state.params);
-
-
-      return /*router &&*/ router.state && entities[router.state.params.pizzaId];
+      return router.state && entities[router.state.params.pizzaId];
     }
   );
 

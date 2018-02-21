@@ -3,13 +3,10 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
 import { tap } from 'rxjs/operators';
-
 import * as fromStore from '../../store';
 
 import { Pizza } from '../../models/pizza.model';
 import { Topping } from '../../models/topping.model';
-import { VisualiseToppings } from '../../store';
-
 
 @Component({
   selector: 'product-item',
@@ -31,6 +28,7 @@ import { VisualiseToppings } from '../../store';
     </div>
   `,
 })
+
 export class ProductItemComponent implements OnInit {
   pizza$: Observable<Pizza>;
   visualise$: Observable<Pizza>;
@@ -82,7 +80,7 @@ export class ProductItemComponent implements OnInit {
   }
 
   onSelect(event: number[]) {
-    console.log('onSelect:::' + event);
+    //console.log('onSelect:::' + event);
     this.store.dispatch(new fromStore.VisualiseToppings(event));
     
     /*
