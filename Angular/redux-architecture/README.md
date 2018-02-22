@@ -65,3 +65,14 @@ yarn start // or npm run start
 | Aware of Store | Not aware of Store |
 | Dispatches Actions | Invokes callbacks via @Output | 
 | Reads data from Store | Read data from @Inputs (immutable) | 
+
+- @input: receive data via input (select)
+```bash
+@Input() pizza: Pizza;
+this.pizza$ = this.store.select(fromStore.getSelectedPizza)
+```
+- @output: retrive data via output (dispach)
+```bash
+@Output() create = new EventEmitter<Pizza>();
+this.store.dispatch(new fromStore.CreatePizza(event));
+```

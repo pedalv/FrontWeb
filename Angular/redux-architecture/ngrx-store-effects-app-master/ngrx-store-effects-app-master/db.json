@@ -131,26 +131,6 @@
         }
       ],
       "id": 3
-    },
-    {
-      "name": "Test Pizza",
-      "toppings": [
-        {
-          "id": 3,
-          "name": "basil"
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": "Test Pizza",
-      "toppings": [
-        {
-          "id": 3,
-          "name": "basil"
-        }
-      ],
-      "id": 5
     }
   ]
 }

@@ -80,8 +80,8 @@ export function reducer(
     case fromPizzas.CREATE_PIZZA_SUCCESS: {
       const pizza = action.payload;
       const entities = {
-        ...state.entities,
-        [pizza.id]: pizza
+        ...state.entities, // merge all exitent entities
+        [pizza.id]: pizza // add the new entitie
       };
 
       return {
@@ -92,8 +92,12 @@ export function reducer(
 
     case fromPizzas.REMOVE_PIZZA_SUCCESS: {
       const pizza  = action.payload;
-      const { [pizza.id]: removed, ...entities } = state.entities
-      
+      const { 
+        [pizza.id]: removed, 
+        ...entities
+       } = state.entities // destroyer element we do not want
+       console.log("removed");
+       console.log(removed);
       return {
         ...state,
         entities
