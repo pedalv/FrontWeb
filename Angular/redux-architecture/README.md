@@ -71,7 +71,7 @@ yarn start // or npm run start
 @Input() pizza: Pizza;
 this.pizza$ = this.store.select(fromStore.getSelectedPizza)
 ```
-- @output: retrive data via output (dispach)
+- @output: retrive data via output (dispatch)
 ```bash
 @Output() create = new EventEmitter<Pizza>();
 this.store.dispatch(new fromStore.CreatePizza(event));
