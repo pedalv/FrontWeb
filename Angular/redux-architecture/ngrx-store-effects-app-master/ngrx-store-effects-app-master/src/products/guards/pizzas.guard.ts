@@ -20,7 +20,7 @@ export class PizzasGuard implements CanActivate {
   }
 
   checkStore(): Observable<boolean> {
-    return this.store.select(fromStore.getPizzaLoaded).pipe(
+    return this.store.select(fromStore.getPizzasLoaded).pipe(
       tap(loaded => {
         if (!loaded) {
           this.store.dispatch(new fromStore.LoadPizzas());
@@ -30,4 +30,5 @@ export class PizzasGuard implements CanActivate {
       take(1)
     );
   }
+
 }
