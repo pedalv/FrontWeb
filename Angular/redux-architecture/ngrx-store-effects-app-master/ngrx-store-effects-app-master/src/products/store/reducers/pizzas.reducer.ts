@@ -1,4 +1,4 @@
-import * as fromPizzas from '../actions/pizza.action';
+import * as fromPizzas from '../actions/pizzas.action';
 import { Pizza } from '../../models/pizza.model';
 //import { MaptoPizzaEntity } from '../utilities/map.array.object.entity';
 
