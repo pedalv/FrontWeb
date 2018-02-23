@@ -76,7 +76,7 @@ describe('ToppingsReducer', () => {
 });
 
 describe('PizzasReducer Selectors', () => {
-  describe('getToppingEntities', () => {
+  describe('getToppingsEntities', () => {
     it('should return .entities', () => {
       const entities: { [key: number]: Topping } = {
         1: { id: 1, name: 'bacon' },
