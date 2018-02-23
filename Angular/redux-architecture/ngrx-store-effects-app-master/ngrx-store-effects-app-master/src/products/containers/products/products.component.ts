@@ -8,6 +8,7 @@ import { Pizza } from '../../models/pizza.model';
 
 @Component({
   selector: 'products',
+  changeDetection: ChangeDetectionStrategy.OnPush,
   styleUrls: ['products.component.scss'],
   template: `
     <div class="products">
@@ -38,7 +39,7 @@ export class ProductsComponent implements OnInit {
   ngOnInit() {
     this.pizzas$ = this.store.select(fromStore.getAllPizzas); //Observable
     //this.store.dispatch(new fromStore.LoadPizzas());
-    this.store.dispatch(new fromStore.LoadToppings());
+    //this.store.dispatch(new fromStore.LoadToppings());
     /*
     this.store.select(fromStore.getAllPizza).subscribe(state => {
       console.log(state);
