@@ -76,3 +76,8 @@ this.pizza$ = this.store.select(fromStore.getSelectedPizza)
 @Output() create = new EventEmitter<Pizza>();
 this.store.dispatch(new fromStore.CreatePizza(event));
 ```
+- Resolver: this.store.dispatch(new fromStore.LoadPizzas());
+- Guard: Why?
+> We do not need use resolver because we use a store
+
+> Give additional benefit of be able of control the navigation and navigate await or to particular view
