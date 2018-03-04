@@ -1,6 +1,10 @@
 # FrontApp
 Front-end projects to build competence.
 
+# Project 7: TFS
+- Project for start with [TFS](https://www.visualstudio.com/tfs/).
+- TFS project is located on [https://github.com/pedalv/FrontApp/tree/master/TFS](https://github.com/pedalv/FrontApp/tree/master/TFS)
+
 # Project 6: Angular
 - Project for start with [Angular](https://angular.io/).
 - React project is located on [https://github.com/pedalv/FrontApp/tree/master/Angular](https://github.com/pedalv/FrontApp/tree/master/Angular)
