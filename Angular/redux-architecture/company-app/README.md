@@ -52,7 +52,6 @@ ng g interface models/appState
 - ./app/containers/store/..
 
 ## Tutorial
-- ![What is NGRX?](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/what-is-ngrx.PNG)
 - [store-devtools](https://github.com/ngrx/store-devtools)
 - [wallabyjs](https://wallabyjs.com/)
 - [Play by Play Angular and ngrx](https://app.pluralsight.com/library/courses/play-by-play-angular-ngrx/table-of-contents)
