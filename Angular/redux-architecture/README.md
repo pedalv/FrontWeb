@@ -1,7 +1,16 @@
 # Redux Architecture
 Project seed app for NGRX application using Angular, NGRX Store, Effects, Router Store.
 
+## What is ngrx? What problem is ngrx solving?
+
+![What is NGRX?](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/what-is-ngrx.PNG)
+
 ![NGRX Architecture](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/NGRX-architecture.PNG)
+
+![What problem NGRX solving (The Store, Reducers, Effects)?](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/ngrx-store-reducers-effects.PNG)
+
+![NGRX Store](https://github.com/pedalv/FrontApp/blob/master/Angular/redux-architecture/ngrx-store.PNG)
+
 
 ## Tools and my setup
 - [Text editor - Visual Studio Code](https://code.visualstudio.com/)
