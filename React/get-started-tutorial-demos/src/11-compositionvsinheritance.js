@@ -15,7 +15,7 @@ function FancyBorder(props) {
         <div>
             <FancyBorder color="blue">
                 <h1 className="Dialog-title">
-                {props.title}
+                  {props.title}
                 </h1>
                 <p className="Dialog-message">
                     {props.message}

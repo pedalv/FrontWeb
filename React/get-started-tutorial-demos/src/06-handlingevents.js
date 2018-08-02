@@ -63,7 +63,7 @@ boundGetX(); // 81
 - This is not React-specific behavior; 
 - it is a part of how functions work in JavaScript. 
 - Generally, if you refer to a method without () after it, 
-such as onClick={this.handleClick}, you should bind that method.
+such as onClick={this.handleClick}, you should bind that method. // IMPORTANT IMPORTANT IMPORTANT
 
 */
 
@@ -107,6 +107,7 @@ Passing Arguments to Event Handlers
               <LoggingButton2 />
               <hr />
           </div>
+
       );
     }
   }
@@ -149,3 +150,4 @@ Passing Arguments to Event Handlers
     <Toggle />,
     document.getElementById('root7')
   );
+  

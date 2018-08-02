@@ -26,6 +26,7 @@ class Hello extends React.Component {
         <div className="separator-bottom">
         <h1>Hello :), world!</h1>
         {element1}
+        <hr />
         </div>
     );
     }

@@ -10,6 +10,7 @@ class Reservation extends React.Component {
       };
   
       this.handleInputChange = this.handleInputChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
     }
   
     handleInputChange(event) {
@@ -34,9 +35,14 @@ class Reservation extends React.Component {
       });
     }
   
+    handleSubmit(event) {
+      alert('Is going: is: ' + this.state.isGoing + ', Number of guest is: ' + this.state.numberOfGuests);
+      event.preventDefault();
+    }
+
     render() {
       return (
-        <form>
+        <form onSubmit={this.handleSubmit}>
           <label>
             Is going:
             <input
@@ -54,6 +60,7 @@ class Reservation extends React.Component {
               value={this.state.numberOfGuests}
               onChange={this.handleInputChange} />
           </label>
+          <input type="submit" value="Submit" />
         </form>
       );
     }

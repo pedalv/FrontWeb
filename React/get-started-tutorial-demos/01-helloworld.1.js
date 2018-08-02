@@ -25,7 +25,8 @@ class Hello extends React.Component {
             }
         };
         */
-        return (React.createElement("div", { className: "separator-bottom" },
+        return (React.createElement("div", 
+            { className: "separator-bottom" },
             React.createElement("h1", null, "Hello :), world!"),
             element1));
     }

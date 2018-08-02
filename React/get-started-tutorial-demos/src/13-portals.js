@@ -78,8 +78,8 @@ class App extends React.Component {
 
     return (
       <div className="app">
-        This div has overflow: hidden.
-        <button onClick={this.handleShow}>Show modal</button>
+        This div has overflow: hidden. 
+        <button onClick={this.handleShow}> Show modal</button>
         {modal}
         <hr /> 
       </div>

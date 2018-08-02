@@ -98,6 +98,7 @@ import ReactDOM from 'react-dom';
           <h1>Hello, world!</h1>
           <h2>It is {this.state.date.toLocaleTimeString()}.</h2>
           <FormattedDate date={this.state.date} />
+          <hr />
         </div>
       );
     }
@@ -174,8 +175,4 @@ Class Properties
 Instance Properties
 1. props
 2. state
-
-
-
-
 */

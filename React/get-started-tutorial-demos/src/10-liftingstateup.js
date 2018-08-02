@@ -21,7 +21,7 @@ function tryConvert(temperature, convert) {
 }
 
 
-function BoilingVerdict(props) {
+  function BoilingVerdict(props) {
     if (props.celsius >= 100) {
       return <p>The water would boil.</p>;
     }

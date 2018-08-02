@@ -31,6 +31,7 @@ import ReactDOM from 'react-dom';
          <img src={user.avatarUrl} alt={formatName(user)} height="100" />
         </div>
       </span>
+      <hr />
     </div>
   );
 
