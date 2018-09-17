@@ -34,8 +34,8 @@ class AppDate extends Component {
 
   render() {
     return (
-        <div className="AppDate-datepicker">
-          <DatePicker id="example-datepicker" 
+        <div className="AppDate">
+          <DatePicker id="AppDate-datepicker" 
             placeholder='Date' 
             value={this.state.value} 
             onChange={this.handleChange} />            
@@ -45,4 +45,4 @@ class AppDate extends Component {
 }
 
 export default AppDate;
-ReactDOM.render(<AppDate />, document.getElementById('root1'));
+ReactDOM.render(<AppDate />, document.getElementById('date'));

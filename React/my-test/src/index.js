@@ -1,11 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App/App';
-import AppDate from './components/AppDate/AppDate';
+//import App from './components/App/App';
+//import AppDate from './components/AppDate/AppDate';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<AppDate />, document.getElementById('root1'));
+if (process.env.NODE_ENV !== 'production') {
+	console.log('Looks like we are in development mode!');
+}
 
 registerServiceWorker();
