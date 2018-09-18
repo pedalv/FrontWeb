@@ -5,7 +5,7 @@ class Kunde extends React.Component {
   public render() {
     return (
       <div className="Kunde">
-        <p>Apotek1 here!</p>
+        <h2>Apotek1 here!</h2>
       </div>
     );
   }
