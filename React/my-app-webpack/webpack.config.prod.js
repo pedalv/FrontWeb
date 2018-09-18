@@ -35,14 +35,22 @@ module.exports = {
         },
         {
             test: /\.svg$/,
-            loader: 'svg-inline-loader'
+            loader: 'svg-inline-loader?classPrefix'
+            //loader: 'svg-inline-loader'
+            //loader: 'svg-loader?{png:{scale:2}}' 
+            //loader: 'svg-loader?pngScale=2' 
+        },
+        {
+          test: /\.(jpe?g|png|gif|ico|svg|woff|ttf|wav|mp3)$/i, 
+          loader: 'file-loader?name=[name].[ext]'
         }
       ]
     },
     plugins: [
         new HtmlWebPackPlugin({
             template: "./src/index.html",
-            filename: "./index.html"
+            filename: "./index.html",
+            favicon: 'src/images/favicon.ico'
         }),
         new MiniCssExtractPlugin({
           filename: "[name].css",
