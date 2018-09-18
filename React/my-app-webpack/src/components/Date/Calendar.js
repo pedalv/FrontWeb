@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import './Calendar.css';
 
 import * as moment from 'moment'
@@ -44,3 +45,4 @@ class Calendar extends Component {
 }
 
 export default Calendar;
+ReactDOM.render(<Calendar />, document.getElementById('calendar'));
