@@ -18,9 +18,6 @@ it('renders Apotek1 here! message', () => {
     const message = <h2>Apotek1 here!</h2>;
     const wrapper = shallow(<Kunde />); 
     expect(wrapper.contains(message)).toEqual(true);
-    
-    /*expect(wrapper).toContainReact(message);*/
-    /*https://jestjs.io/docs/en/expect.html*/
 });
 
 it('sums numbers', () => {
