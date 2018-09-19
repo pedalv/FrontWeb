@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './Hello.css';
+import './Hello.less';
 
 interface IProps {
    compiler: string,

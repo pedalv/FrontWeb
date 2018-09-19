@@ -48,7 +48,27 @@ module.exports = {
             },
             {
               test: /\.css$/,
-              use: [MiniCssExtractPlugin.loader, "css-loader"]
+              use: [
+                  MiniCssExtractPlugin.loader, 
+                  "css-loader"
+                ]
+            },
+            {
+                test: /\.less$/,
+                use: [{
+                        loader: 'style-loader'
+                    }, 
+                    {
+                        loader: 'css-loader'
+                    }, 
+                    {
+                        loader: 'less-loader', options: {
+                        paths: [
+                            path.resolve(__dirname, 'node_modules')
+                            ]
+                        }
+                    }
+                ]
             },
             {
                 test: /\.svg$/,
