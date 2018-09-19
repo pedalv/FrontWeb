@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "12960eecd102d49762db";
+/******/ 	var hotCurrentHash = "3550f81234dbbb3dbb02";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -23385,6 +23385,17 @@ if (true) {
 
 /***/ }),
 
+/***/ "./src/app/components/Hello/Hello.css":
+/*!********************************************!*\
+  !*** ./src/app/components/Hello/Hello.css ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "./src/app/components/Hello/Hello.tsx":
 /*!********************************************!*\
   !*** ./src/app/components/Hello/Hello.tsx ***!
@@ -23409,19 +23420,21 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+__webpack_require__(/*! ./Hello.css */ "./src/app/components/Hello/Hello.css");
 var Hello = (function (_super) {
     __extends(Hello, _super);
     function Hello() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Hello.prototype.render = function () {
-        return (React.createElement("h1", null,
-            "This is a ",
-            this.props.framework,
-            " application using ",
-            this.props.compiler,
-            " with ",
-            this.props.bundler));
+        return (React.createElement("div", { className: "Hello" },
+            React.createElement("h1", null,
+                "This is a ",
+                this.props.framework,
+                " application using ",
+                this.props.compiler,
+                " with ",
+                this.props.bundler)));
     };
     return Hello;
 }(React.Component));

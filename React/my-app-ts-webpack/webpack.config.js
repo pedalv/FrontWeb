@@ -27,12 +27,39 @@ module.exports = {
         rules: [
             {
                 test: /\.(ts|tsx)$/,
-                loader: 'ts-loader'
-            },
+                //exclude: /node_modules/,
+                use: {
+                    loader: "ts-loader"
+                }
+            },            
             { 
                 enforce: "pre", 
                 test: /\.js$/, 
                 loader: "source-map-loader" 
+            },
+            {
+                test: /\.html$/,
+                use: [
+                    {
+                    loader: "html-loader",
+                    options: { minimize: true }
+                    }
+                ]
+            },
+            {
+              test: /\.css$/,
+              use: [MiniCssExtractPlugin.loader, "css-loader"]
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader?classPrefix'
+                //loader: 'svg-inline-loader'
+                //loader: 'svg-loader?{png:{scale:2}}' 
+                //loader: 'svg-loader?pngScale=2' 
+            },
+            {
+              test: /\.(jpe?g|png|gif|ico|svg|woff|ttf|wav|mp3)$/i, 
+              loader: 'file-loader?name=[name].[ext]'
             }
         ]
     },

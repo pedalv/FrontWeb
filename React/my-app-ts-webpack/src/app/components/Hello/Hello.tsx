@@ -1,5 +1,5 @@
 import * as React from 'react';
-//import './Hello.css';
+import './Hello.css';
 
 interface IProps {
    compiler: string,
@@ -9,6 +9,10 @@ interface IProps {
 
 export class Hello extends React.Component<IProps, {}> {
    render() {
-    return (<h1>This is a {this.props.framework} application using {this.props.compiler} with {this.props.bundler}</h1>)
+    return (
+        <div className="Hello">
+            <h1>This is a {this.props.framework} application using {this.props.compiler} with {this.props.bundler}</h1>
+        </div>        
+    )
    }
 }
