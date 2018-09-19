@@ -1,9 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Hello } from './components/Hello/Hello';
+import Hello from './components/Hello/Hello';
 import Kunde from './components/Kunde/Kunde';
-import registerServiceWorker from './registerServiceWorker';
 import './index.css';
+import registerServiceWorker from './registerServiceWorker';
 
 declare let module: any
 
