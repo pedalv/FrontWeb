@@ -1,7 +1,7 @@
+import { shallow } from 'enzyme';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { shallow } from 'enzyme';
-import Kunde from './Kunde';
+import Hello from './Hello';
 
 import * as Enzyme from 'enzyme';
 import ReactSixteenAdapter from 'enzyme-adapter-react-16';
@@ -11,17 +11,17 @@ it('sums 1 + 2 numbers = 3 - Test', () => {
   expect(1+2).toEqual(3);
 });
 
-describe('kundeComponent - Test', () => {
+describe('HelloComponent - Test', () => {
     
     it('renders without crashing', () => {
         const div = document.createElement('div');
-        ReactDOM.render(<Kunde />, div);
+        ReactDOM.render(<Hello compiler="Typescript" framework="React..." bundler="Webpack" />, div);
         ReactDOM.unmountComponentAtNode(div);
     });
 
     it('renders message', () => {
-        const message = <h2>Apotek1 here!</h2>;
-        const wrapper = shallow(<Kunde />); 
+        const message = <h1>This is a React... application using Typescript with Webpack</h1>;
+        const wrapper = shallow(<Hello compiler="Typescript" framework="React..." bundler="Webpack" />); 
         expect(wrapper.contains(message)).toEqual(true);
     });
 

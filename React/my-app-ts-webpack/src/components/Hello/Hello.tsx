@@ -7,7 +7,7 @@ interface IProps {
    bundler: string
 }
 
-export class Hello extends React.Component<IProps, {}> {
+class Hello extends React.Component<IProps, {}> {
    render() {
     return (
         <div className="Hello">
@@ -16,3 +16,5 @@ export class Hello extends React.Component<IProps, {}> {
     )
    }
 }
+
+export default Hello;
