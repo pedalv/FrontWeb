@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "469976fd99df190f629d";
+/******/ 	var hotCurrentHash = "12960eecd102d49762db";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -23376,7 +23376,7 @@ module.exports = function(module) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var Hello_1 = __webpack_require__(/*! ./components/Hello */ "./src/app/components/Hello.tsx");
+var Hello_1 = __webpack_require__(/*! ./components/Hello/Hello */ "./src/app/components/Hello/Hello.tsx");
 ReactDOM.render(React.createElement(Hello_1.Hello, { compiler: "Typescript", framework: "React...", bundler: "Webpack" }), document.getElementById('root'));
 if (true) {
     module.hot.accept();
@@ -23385,10 +23385,10 @@ if (true) {
 
 /***/ }),
 
-/***/ "./src/app/components/Hello.tsx":
-/*!**************************************!*\
-  !*** ./src/app/components/Hello.tsx ***!
-  \**************************************/
+/***/ "./src/app/components/Hello/Hello.tsx":
+/*!********************************************!*\
+  !*** ./src/app/components/Hello/Hello.tsx ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
