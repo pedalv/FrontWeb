@@ -1,6 +1,7 @@
 const path = require('path'),
     webpack = require('webpack'),
-    HtmlWebpackPlugin = require('html-webpack-plugin');
+    HtmlWebpackPlugin = require('html-webpack-plugin'),
+    MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
     entry: {
@@ -37,6 +38,12 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({ 
             template: path.resolve(__dirname, 'src', 'app', 'index.html') 
+            //template: "./src/index.html",
+            //filename: "./index.html"
+        }),
+        new MiniCssExtractPlugin({
+            filename: "[name].css",
+            chunkFilename: "[id].css"
         }),
         new webpack.HotModuleReplacementPlugin()
     ]
