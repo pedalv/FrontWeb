@@ -6,7 +6,7 @@ const path = require('path'),
 module.exports = {
     entry: {
         app: [
-            './src/app/index.tsx', 
+            './src/index.tsx', 
             'webpack-hot-middleware/client'
         ],
         vendor: [
@@ -65,7 +65,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({ 
-            template: path.resolve(__dirname, 'src', 'app', 'index.html') 
+            template: path.resolve(__dirname, 'src', 'index.html') 
             //template: "./src/index.html",
             //filename: "./index.html"
         }),
