@@ -1,6 +1,6 @@
 ## Goal
 Minimal setup project for run an app with React + Webpack + TypeScript + Jest.
-![Web services architecture](https://github.com/pedalv/FrontApp/blob/master/React/my-app-webpack/react-testing-app.png)
+![Web services architecture](https://github.com/pedalv/FrontApp/blob/master/React/my-app-ts-webpack/react-testing-app.PNG)
 
 ## Frameworks
 - [Node.js V8.12.0](https://nodejs.org/en/)
