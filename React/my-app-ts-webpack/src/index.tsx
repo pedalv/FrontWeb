@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './components/App/App';
+import Calendar from './components/Date/Calendar';
 import Hello from './components/Hello/Hello';
 import Kunde from './components/Kunde/Kunde';
 import './index.css';
@@ -11,6 +12,11 @@ declare let module: any
 ReactDOM.render(
     <App />, 
     document.getElementById("app") as HTMLElement
+);
+
+ReactDOM.render(
+    <Calendar />, 
+    document.getElementById('calendar')
 );
 
 ReactDOM.render(
