@@ -94,3 +94,12 @@ mvn run start:build|dev
 "@types/node": "^10.10.1",
 "@types/react": "^16.4.14",
 "@types/react-dom": "^16.0.7",
+
+## Articles
+- [create-react-app](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment)
+- [Code-Splitting](https://reactjs.org/docs/code-splitting.html)
+- [POSTS](https://www.valentinog.com/blog/)
+- [React 16.3 Context API inTypeScript](https://medium.com/@mtiller/react-16-3-context-api-intypescript-45c9eeb7a384)
+- [The minimal React + Webpack 4 + Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
+- [React with Typescript and Webpack](https://hackernoon.com/react-with-typescript-and-webpack-654f93f34db6)
+- [Testing React with Jest and Enzyme](https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675)
