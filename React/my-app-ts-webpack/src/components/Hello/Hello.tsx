@@ -8,7 +8,7 @@ interface IProps {
 }
 
 class Hello extends React.Component<IProps, {}> {
-   render() {
+   public render() {
     return (
         <div className="Hello">
             <h1>This is a {this.props.framework} application using {this.props.compiler} with {this.props.bundler}</h1>
