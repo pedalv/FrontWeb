@@ -1,5 +1,5 @@
 ## Goal
-Minimal setup project for run a app with React + Webpack + TypeScript + Jest.
+Minimal setup project for run an app with React + Webpack + TypeScript + Jest.
 
 ## Frameworks
 - [Node.js V8.12.0](https://nodejs.org/en/)
