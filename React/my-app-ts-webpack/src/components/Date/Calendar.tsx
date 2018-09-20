@@ -1,7 +1,8 @@
+import * as moment from 'moment';
+import 'moment-timezone';
 import * as React from 'react';
 import './Calendar.css';
-import * as moment from 'moment'
-import 'moment-timezone';
+import calendarLogo from'./calendar.png';
 
 //https://www.npmjs.com/package/react-date-picker
 import DatePicker from 'react-date-picker'
@@ -34,7 +35,7 @@ class Calendar extends React.Component<{}, { value: Date } > {
   public render() {
     return (
         <div className="calendar-img-datepicker">
-            <img src="./calendar.png" alt={"calendar"} width={150} /> 
+            <img src="./calendar.png" alt={calendarLogo} width={250} /> 
             <DatePicker className="calendar-datepicker" 
                 onChange={this.handleChange} value={this.state.value}/>
         </div>      
