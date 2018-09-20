@@ -2,6 +2,41 @@
 Minimal setup project for run an app with React + Webpack + TypeScript + Jest.
 ![Web services architecture](https://github.com/pedalv/FrontApp/blob/master/React/my-app-ts-webpack/react-testing-app.PNG)
 
+- App-component
+```javascript
+<div className="App">
+    <header className="App-header">
+        <Logo width={150} height={150} />
+        <h1 className="App-title">Welcome to React</h1>
+    </header>
+    <p className="App-intro">
+        To get started, edit <code>src/index.tsx</code> and save to reload.
+    </p>
+</div>
+```
+
+- Date-component
+```javascript
+<div className="calendar-img-datepicker">
+    <img src="./calendar.png" alt={calendarLogo} width={250} /> 
+    <DatePicker className="calendar-datepicker" onChange={this.handleChange} value={this.state.value} />
+</div>  
+```
+
+- Kunde-component
+```javascript
+<div className="Kunde">
+    <h2>Apotek1 here!</h2>
+</div>
+```
+
+- Hello-component
+```javascript
+<div className="Hello">
+    <h1>This is a {this.props.framework} application using {this.props.compiler} with {this.props.bundler}</h1>
+</div>
+```
+
 ## Frameworks
 - [Node.js V8.12.0](https://nodejs.org/en/)
 - [npm - V6.4.1](https://www.npmjs.com/get-npm)
