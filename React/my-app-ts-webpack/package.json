@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts-ts": "^2.17.0",
+    "react-scripts-ts": "^4.0.8",
     "typescript": "^3.0.3"
   },
   "devDependencies": {
@@ -29,7 +29,7 @@
     "@types/node": "^10.10.1",
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
-    "babel-jest": "^23.6.0",
+    "babel-jest": "^26.3.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
     "enzyme": "^3.6.0",
@@ -38,23 +38,23 @@
     "file-loader": "^2.0.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^23.6.0",
+    "jest": "^26.4.2",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "mini-css-extract-plugin": "^0.4.2",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
     "react-date-picker": "^6.12.1",
-    "react-svg-loader": "^2.1.0",
+    "react-svg-loader": "^3.0.3",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.0",
     "svg-inline-loader": "^0.8.0",
     "svg-loader": "0.0.2",
     "ts-loader": "^5.1.1",
-    "webpack": "^4.19.1",
-    "webpack-cli": "^3.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-middleware": "^3.3.0",
-    "webpack-dev-server": "^3.1.8",
+    "webpack-dev-server": "^3.11.0",
     "webpack-hot-middleware": "^2.24.0"
   }
 }
