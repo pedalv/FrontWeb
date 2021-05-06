@@ -36,7 +36,7 @@
         "karma-coverage": "^1.1.2",
         "karma-jasmine": "^1.1.2",
         "karma-teamcity-reporter": "^1.1.0",
-        "lodash": "^4.17.20",
+        "lodash": "^4.17.21",
         "mock-local-storage": "^1.1.15",
         "run-sequence": "^2.2.1",
         "xenious-cordova-plugin-console": "^1.0.3"
